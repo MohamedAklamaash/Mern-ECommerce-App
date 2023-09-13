@@ -1,0 +1,9 @@
+@media screen  and (min-width:600px) {
+.banner{
+    max-width: 100%;
+    color: black;
+    font-weight:bolder;
+    line-height: 200%;
+    clip-path: polygon(69% 14%, 0 65%, 100% 66%);
+}    
+}
