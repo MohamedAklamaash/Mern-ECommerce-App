@@ -5,14 +5,16 @@ import Product from "./Product";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchProducts } from "../store/reducers/ProductSlice";
 // import { add, remove } from "../store/reducers/CartSlice";
+// import { setProducts } from "../store/reducers/ProductSlice";
 import FiltersComponent from "./FiltersComponent";
+
 const Home = () => {
   const dispatch = useDispatch();
   const { data, status } = useSelector((state) => state.product);
 
-  useEffect(() => {
-    dispatch(fetchProducts());
-  }, [fetchProducts]);
+  // useEffect(() => {
+  //   dispatch(fetchProducts());
+  // }, [fetchProducts]);
   // const itemsFunction = async () => {
   //   let res = await axios.get("http://localhost:5001/api/products/products")
   //   const jsonData = await res.data;
@@ -43,18 +45,19 @@ const Home = () => {
   //   return outputArray;
   // }
 
-  // useEffect(()=>{
-  //   dispatch(setProducts(fetchProducts()))
-  // },[]);
+  useEffect(() => {
+    dispatch(fetchProducts());
+  }, [dispatch]);
+
   // if (items === null) {
   //   return <div>Loading...</div>;
   // }
   // useEffect(() => {
   //   dispatch(fetchProducts());
   // });
+
   return (
     <div>
-      {console.log("Item:", data)}
       <div className="flex flex-col text-center items-center justify-center text-white bg-gradient-to-b from-blue-700 to-slate-400 h-[100vmin] m-[5vmax] text-4xl banner  ">
         <p>Welcome to E-commerce</p>
         <h1>Find Amazing products below</h1>

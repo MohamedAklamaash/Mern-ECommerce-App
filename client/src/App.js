@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import Footer from './components/Footer';
 import { Provider } from 'react-redux';
 import store from './store/store';
-import HomeCheck from './pages/HomeCheck';
+
 const App = () => {
   return (
     <div>
@@ -13,7 +13,7 @@ const App = () => {
         <Router>
           <Navbar />
           <Routes>
-            <Route element={<HomeCheck/>} path="/" />
+            <Route element={<Home/>} path="/" />
           </Routes>
           <Footer />
         </Router>
