@@ -30,7 +30,6 @@ router.route("/updateProfile").post(isUserAuthenticated, updateUserProfile);
 router.route("/updatePassword").post(isUserAuthenticated, updateUserPassword);
 router.route("/deleteUser").post(isUserAuthenticated,deleteUser);
 
-
 router
   .route("/getAllUserdetails")
   .get(isUserAuthenticated, authorizedRoles("admin"), getAlluserDetails);

@@ -8,8 +8,11 @@ import hamBurgerLogo from "../assets/three-horizontal-lines-icon.svg";
 const Navbar = () => {
   const [state, setstate] = useState(0);
   const navigate = useNavigate();
+  const HandleSearch = (event)=>{
+    setstate(event.target.value);
+  }
   return (
-    <div className=" ">
+    <div className=" pt-3 px-4 ">
       <header className="flex justify-between items-center">
         <div className="w-[60px]">
           <img
@@ -20,12 +23,9 @@ const Navbar = () => {
           />
         </div>
         <div className="flex text-lg gap-3 max-sm:hidden">
-          <h4
-            className=" hover:text-violet-400 cursor-pointer"
-            onClick={() => navigate("/")}
-          >
+          <a className=" hover:text-violet-400 cursor-pointer" href="/">
             Home
-          </h4>
+          </a>
           <h4
             className=" hover:text-violet-400 cursor-pointer"
             onClick={() => navigate("/aboutUs")}
@@ -50,14 +50,21 @@ const Navbar = () => {
             type="text"
             className="w-[10rem] h-4 rounded-full border border-slate-700  px-2 py-4"
             placeholder="Search for Products"
+            onChange={HandleSearch}
           />
           <img src={search} alt="search" className="w-6 h-6 cursor-pointer " />
           <img
             src={shoppingCart}
             alt="search"
             className="w-6 h-6 cursor-pointer "
+            onClick={()=>navigate("/cart")}
           />
-          <img src={userLogo} alt="search" className="w-6 h-6 cursor-pointer" onClick={()=>navigate("/login")} />
+          <img
+            src={userLogo}
+            alt="search"
+            className="w-6 h-6 cursor-pointer"
+            onClick={() => navigate("/login")}
+          />
         </div>
         <div className="max-sm:inline-block hidden ">
           <img src={hamBurgerLogo} alt="hamBurgerLogo" width={25} height={25} />
