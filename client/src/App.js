@@ -7,6 +7,7 @@ import { Provider } from 'react-redux';
 import store from './store/store';
 import LoginPage from './pages/LoginPage';
 import SignUpPage from './pages/SignUpPage';
+import SingleProductPage from './pages/SingleProductPage';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
             <Route element={<Home/>} path="/" />
             <Route element={<LoginPage/>} path='/login'/>
             <Route element={<SignUpPage/>} path='/signup'/>
+            <Route element={<SingleProductPage/>} path='/product/:id'/>
           </Routes>
           <Footer />
         </Router>

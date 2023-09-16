@@ -5,7 +5,7 @@ import Product from "./Product";
 import { useSelector, useDispatch } from "react-redux";
 import { add, remove } from "../store/CartSlice";
 import { setProducts, statuses } from "../store/ProductSlice";
-import {fetchProducts} from "../store/ProductSlice";
+import { fetchProducts } from "../store/ProductSlice";
 import FiltersComponent from "./FiltersComponent";
 
 const Home = () => {
@@ -15,6 +15,7 @@ const Home = () => {
   useEffect(() => {
     dispatch(fetchProducts());
   }, [dispatch]);
+
   // const itemsFunction = async () => {
   //   let res = await axios.get("http://localhost:5001/api/products/products")
   //   const jsonData = await res.data;
@@ -22,14 +23,12 @@ const Home = () => {
   //   setdata(jsonData.products);
   // };
 
-
-  if(status === statuses.LOADING)
-  {
+  if (status === statuses.LOADING) {
     return (
-      <h1 className="text-4xl text-black">
-        Loading.....
-      </h1>
-    )
+      <div className="flex items-center justify-center h-[100vmin]">
+        <h1 className="text-4xl text-black">Loading....</h1>
+      </div>
+    );
   }
 
   const product = {
@@ -55,19 +54,15 @@ const Home = () => {
   //   return outputArray;
   // }
 
-
   // if (items === null) {
   //   return <div>Loading...</div>;
   // }
   // useEffect(() => {
   //   dispatch(fetchProducts());
   // });
-
+  const Products = data.products;
   return (
     <div>
-      {console.log(
-        "data:",data.products
-      )}
       <div className="flex flex-col text-center items-center justify-center text-white bg-gradient-to-b from-blue-700 to-slate-400 h-[100vmin] m-[5vmax] text-4xl banner  ">
         <p>Welcome to E-commerce</p>
         <h1>Find Amazing products below</h1>
@@ -83,7 +78,8 @@ const Home = () => {
       </div>
 
       <div className="grid md:grid-cols-4 px-4 py-2 mx-5">
-        <FiltersComponent className="m:[5rem]" />
+        <FiltersComponent className="m-[5rem] p-3" />
+        {/*<Product product={data}*/}
         <Product product={product} />
         <Product product={product} />
         <Product product={product} />

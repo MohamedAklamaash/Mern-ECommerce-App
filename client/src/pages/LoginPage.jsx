@@ -1,9 +1,11 @@
 import React, { useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 const LoginPage = () => {
   const navigate = useNavigate();
   const [email, setemail] = useState("");
   const [password, setpassword] = useState("");
+  const dispatch = useDispatch();
   const HandleLogin = async () => {
     const data = await fetch("http://localhost:5001/api/users/login", {
       method: "POST",
@@ -11,20 +13,22 @@ const LoginPage = () => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({ email, password }),
-    }).catch(()=>{
-      alert('Invalid Credentials')
-    })
+    }).catch(() => {
+      alert("Invalid Credentials");
+    });
     const json = await data.json();
     console.log(json);
+
     if (!json.success) {
       alert("Enter Valid Credentials");
     } else {
       alert("User Logged SuccessFully!!");
-      window.location = "/";
-    }  };
+      navigate("/");
+    }
+  };
   return (
     <div>
-      <header className=" mt-10 text-4xl text-center font-bold ">
+      <header className="  text-4xl text-center font-bold">
         Login in Now or Regret Later
       </header>
       <main>
@@ -49,7 +53,7 @@ const LoginPage = () => {
               placeholder="password"
               onChange={(event) => setpassword(event.target.value)}
             />
-            <div className="md:gap-[100px]">
+            <div className="flex items-center justify-evenly w-[50%]">
               <button
                 type="submit"
                 className="bg-black rounded-t-full rounded-br-full p-4 shadow-md font-serif text-lg text-grey text-[#fff] w-[10rem]"
@@ -58,6 +62,8 @@ const LoginPage = () => {
                 Login
               </button>
               <button>
+                <span>New User</span>
+                <br />
                 <Link to="/signup">SignUp Now!</Link>
               </button>
             </div>

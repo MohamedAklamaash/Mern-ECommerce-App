@@ -61,4 +61,14 @@ const getProductDetails =AsyncErrorHandler(async(req,res)=>{
     res.status(200).json({success:true,product});
 });
 
-module.exports = {createProduct,getAllProducts,updateProduct,getProductDetails};
+const getDetailsOfSingleProduct =AsyncErrorHandler(async(req,res)=>{
+    let product = await productSchema.findById(req.params.id);
+    if (!product) {
+        return res
+        .status(501)
+        .json({ success: false, msg: "Product not found" });
+    }
+    res.status(200).json({ success: true, product });
+})
+
+module.exports = {createProduct,getAllProducts,updateProduct,getProductDetails,getDetailsOfSingleProduct};

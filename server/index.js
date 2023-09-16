@@ -8,6 +8,7 @@ const product = require("./routes/productRoute");
 const user = require("./routes/userRoutes");
 const orders = require("./routes/orderRoute");
 const cors = require("cors");
+app.use(express.json());
 app.use(cors());
 app.use(cookieParser());
 app.use("/api/products",product);
