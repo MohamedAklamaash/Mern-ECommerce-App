@@ -1,15 +1,26 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import logo from "../assets/NavLogo.jpeg";
 import { useNavigate } from "react-router-dom";
-import search from "../assets/search-alt-2-svgrepo-com.svg";
+import searchBtn from "../assets/search-alt-2-svgrepo-com.svg";
 import userLogo from "../assets/user-single-solid-svgrepo-com.svg";
 import shoppingCart from "../assets/shopping-cart-svgrepo-com.svg";
 import hamBurgerLogo from "../assets/three-horizontal-lines-icon.svg";
 const Navbar = () => {
-  const [state, setstate] = useState(0);
+  const [search, setsearch] = useState("");
+
   const navigate = useNavigate();
-  const HandleSearch = (event)=>{
-    setstate(event.target.value);
+  const HandleSearch =  (event) => {
+    setsearch(event.target.value);
+  };
+  const handleProducts = async()=>{
+        const url = `http://localhost:5001/api/products/products?keyword=${search}`;
+    console.log(url);
+    const searchFunc = await fetch(url, {
+      method: "get",
+      headers: {
+        "Content-type": "application-json",
+      },
+    });
   }
   return (
     <div className=" pt-3 px-4 ">
@@ -52,12 +63,17 @@ const Navbar = () => {
             placeholder="Search for Products"
             onChange={HandleSearch}
           />
-          <img src={search} alt="search" className="w-6 h-6 cursor-pointer " />
+          <img
+            src={searchBtn}
+            alt="search"
+            className="w-6 h-6 cursor-pointer"
+            onClick={HandleSearch}
+          />
           <img
             src={shoppingCart}
             alt="search"
             className="w-6 h-6 cursor-pointer "
-            onClick={()=>navigate("/cart")}
+            onClick={() => navigate("/cart")}
           />
           <img
             src={userLogo}

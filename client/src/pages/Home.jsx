@@ -11,7 +11,6 @@ import FiltersComponent from "./FiltersComponent";
 const Home = () => {
   const dispatch = useDispatch();
   const { data, status } = useSelector((state) => state.product);
-
   useEffect(() => {
     dispatch(fetchProducts());
   }, [dispatch]);
