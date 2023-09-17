@@ -5,23 +5,18 @@ import searchBtn from "../assets/search-alt-2-svgrepo-com.svg";
 import userLogo from "../assets/user-single-solid-svgrepo-com.svg";
 import shoppingCart from "../assets/shopping-cart-svgrepo-com.svg";
 import hamBurgerLogo from "../assets/three-horizontal-lines-icon.svg";
+import Cookies from "js-cookie";
 const Navbar = () => {
+  //would be better if we use useQuery();
   const [search, setsearch] = useState("");
-
   const navigate = useNavigate();
-  const HandleSearch =  (event) => {
+
+  const HandleSearch = (event) => {
     setsearch(event.target.value);
+    console.log(search);
+    Cookies.set("searchValue",search);
   };
-  const handleProducts = async()=>{
-        const url = `http://localhost:5001/api/products/products?keyword=${search}`;
-    console.log(url);
-    const searchFunc = await fetch(url, {
-      method: "get",
-      headers: {
-        "Content-type": "application-json",
-      },
-    });
-  }
+
   return (
     <div className=" pt-3 px-4 ">
       <header className="flex justify-between items-center">
@@ -67,7 +62,7 @@ const Navbar = () => {
             src={searchBtn}
             alt="search"
             className="w-6 h-6 cursor-pointer"
-            onClick={HandleSearch}
+            onClick={()=>navigate("/search")}
           />
           <img
             src={shoppingCart}

@@ -36,7 +36,7 @@ const getAllProducts = AsyncErrorHandler(async (req, res) => {
   if (!products) {
     return res.json({ success: false });
   }
-  res.json({ success: true, products, productCount });
+  res.json({ success: true, products });
 });
 
 const updateProduct = AsyncErrorHandler(async (req, res) => {

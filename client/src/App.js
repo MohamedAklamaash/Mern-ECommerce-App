@@ -11,6 +11,7 @@ import SingleProductPage from './pages/SingleProductPage';
 import CartPage from './utils/CartPage';
 import AboutUs from './utils/AboutUs';
 import Contact from './utils/Contact';
+import SearchProductsComponent from './utils/SearchProductsComponent';
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
             <Route element={<CartPage/>} path="/cart"/>
             <Route element={<AboutUs/>} path='/aboutUs'/>
             <Route element={<Contact/>} path='/contact'/>
+            <Route element={<SearchProductsComponent/>} path='/search'/>
           </Routes>
           <Footer />
         </Router>

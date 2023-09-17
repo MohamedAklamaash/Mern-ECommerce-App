@@ -22,7 +22,6 @@ const SingleProductPage = () => {
   const data = async () => {
     try {
       const url = `http://localhost:5001/api/products/products/${formattedId}`;
-      console.log("URL:", url);
       const req = await axios.get(url);
       const res = req.data;
       setproductData(res);
@@ -32,7 +31,7 @@ const SingleProductPage = () => {
   };
   useEffect(() => {
     data();
-  }, []);
+  });
 
   if (!productData.success) {
     return (
