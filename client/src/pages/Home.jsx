@@ -39,7 +39,7 @@ const Home = () => {
       },
     ],
     price: 10,
-    _id: "aklamaash",
+    _id: "6505f2bf5b5fa97b95d5dcc8",
   };
 
   // let outputArray = [];
@@ -60,7 +60,6 @@ const Home = () => {
   // useEffect(() => {
   //   dispatch(fetchProducts());
   // });
-  const Products = data.products;
   return (
     <div>
       <div className="flex flex-col text-center items-center justify-center text-white bg-gradient-to-b from-blue-700 to-slate-400 h-[100vmin] m-[5vmax] text-4xl banner  ">

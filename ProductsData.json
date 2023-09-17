@@ -1,0 +1,36 @@
+[
+    {
+        "productName": "Redmi Note 9 pro",
+        "description": "The Redmi Note 9 Pro is like your dependable, tech-savvy sidekick in the world of smartphones. With its sleek design and vibrant display, it's a head-turner that never fails to impress. Its powerful performance and long-lasting battery make it your trusted companion for all-day adventures. Plus, its camera captures memories in stunning detail, turning every moment into a masterpiece. The Redmi Note 9 Pro: where style meets substance, and innovation meets charm",
+        "price": 15000,
+        "images": [
+            {
+                "public_id": "Phone Image",
+                "url": "https://www.phonesonline.ie/cdn/shop/products/xiaomi-note-9-pro-grey-1_1024x1024.jpg?v=1630767645"
+            },
+            {
+                "public_id": "Phone Image",
+                "url": "https://i01.appmifile.com/webfile/globalimg/7/15944015-72FA-3105-CE5C-0C68E04C7BE6.png"
+            }
+        ],
+        "category": "Phone",
+        "Stock": 10000
+    },
+    {
+        "productName": "Realme Note 12 pro",
+        "description": "A Realme mid-range smartphone blends style, performance, and affordability. Modern design, a powerful processor, impressive camera capabilities, and long-lasting battery life make it a budget-friendly yet feature-rich choice for users.",
+        "price": 20000,
+        "images": [
+            {
+                "public_id": "Phone Image",
+                "url": "https://image01.realme.net/general/20221125/1669360530169.png.webp"
+            },
+            {
+                "public_id": "Phone Image",
+                "url": "https://image01.realme.net/general/20230713/1689223757355fd0079c2f520486ea1fb1ac724fc1fc6.jpg.webp"
+            }
+        ],
+        "category": "Phone",
+        "Stock": 4000
+    }
+]

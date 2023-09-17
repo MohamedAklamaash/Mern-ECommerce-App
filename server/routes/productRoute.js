@@ -3,7 +3,7 @@ const {
   getAllProducts,
   updateProduct,
   getProductDetails,
-  getDetailsOfSingleProduct
+  getDetailsOfSingleProduct,
 } = require("../controllers/productController");
 
 const express = require("express");
@@ -19,6 +19,7 @@ router
 router
   .route("/products/:id")
   .put(isUserAuthenticated, authorizedRoles("admin"), updateProduct)
-  .delete(isUserAuthenticated, authorizedRoles("admin"), deleteProduct).get(getDetailsOfSingleProduct)
-  
+  .delete(isUserAuthenticated, authorizedRoles("admin"), deleteProduct)
+  .get(getDetailsOfSingleProduct);
+
 module.exports = router;

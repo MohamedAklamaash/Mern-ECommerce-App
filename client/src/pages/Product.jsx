@@ -14,11 +14,14 @@ const Product = ({ product }) => {
     value: 2.5,
     isHalf: true,
   };
+
   const handleCart = (product) => {
     dispatch(add(product));
   };
+  
   return (
     <div className="flex flex-col items-center">
+      {console.log("Items:",items)}
       <Link to={`product/:${product._id}`}>
         <div className="p-3 flex flex-col items-center">
           <img src={product.images[0].url} width={230} height={130} />
@@ -32,8 +35,8 @@ const Product = ({ product }) => {
       </Link>
       <button
         type="button"
-        onClick={handleCart(product)}
-        class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+        onClick={()=>handleCart(product)}
+        className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
       >
         Add to Cart 🛒
       </button>
