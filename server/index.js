@@ -8,13 +8,17 @@ const product = require("./routes/productRoute");
 const user = require("./routes/userRoutes");
 const orders = require("./routes/orderRoute");
 const cors = require("cors");
+const payment = require("./routes/paymentRoute");
 app.use(express.json());
 app.use(cors());
 app.use(cookieParser());
 app.use("/api/products",product);
 app.use("/api/users",user);
 app.use("/api/orders",orders);
-
+app.use("/api/payment",payment);
+app.get("/api/apikey", async (req, res) => {
+  return res.status(200).json({ key: process.env.razorpay_api_key_id });
+});
 process.on("unhandledRejection", (err) => {
   console.log("Closing the server");
     server.close(() => {

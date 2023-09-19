@@ -24,7 +24,8 @@
     "mongoose": "^7.4.5",
     "nodemailer": "^6.9.4",
     "nodemon": "^3.0.1",
+    "razorpay": "^2.9.2",
     "validator": "^13.11.0"
   },
-  "proxy":"http://10.1.220.190:5001"
+  "proxy": "http://10.1.220.190:5001"
 }

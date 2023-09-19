@@ -12,6 +12,7 @@ import CartPage from './utils/CartPage';
 import AboutUs from './utils/AboutUs';
 import Contact from './utils/Contact';
 import SearchProductsComponent from './utils/SearchProductsComponent';
+import SuccessPage from './utils/SuccessPage';
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
             <Route element={<AboutUs/>} path='/aboutUs'/>
             <Route element={<Contact/>} path='/contact'/>
             <Route element={<SearchProductsComponent/>} path='/search'/>
+            <Route element={<SuccessPage/>} path='/paymentSuccess'/>
           </Routes>
           <Footer />
         </Router>

@@ -3,27 +3,24 @@ import Cookies from "js-cookie";
 import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
 import { add, remove } from "../store/CartSlice";
-
+import { useLocation } from "react-router-dom";
 const SearchProductsComponent = () => {
   const dispatch = useDispatch();
   const items = useSelector((state) => state.cart);
-
-  const searchVal = Cookies.get("searchValue");
+  const location = useLocation();
+  const queryParams = new URLSearchParams(location.search);
+  const keyword = queryParams.get("keyword");
   const [res, setres] = useState([]);
-  console.log("searchVal:", searchVal);
   const handleProducts = async () => {
-    console.log("search value:", searchVal);
-    const url = `http://localhost:5001/api/products/products?keyword=${searchVal}`;
-    console.log(url);
+    const url = `http://localhost:5001/api/products/products?keyword=${keyword}`;
     try {
       const searchFunc = await axios.get(url);
       const res = await searchFunc.data;
       let { products } = res;
       products = Object.keys(products).map((key) => products[key]);
       setres(products);
-      console.log(products);
     } catch (error) {
-      console.log("err is searching for the query:", error);
+      window.location.reload();
     }
   };
   useEffect(() => {
@@ -44,7 +41,6 @@ const SearchProductsComponent = () => {
   return (
     <div>
       {res.map((r) => {
-        console.log(r.productName);
         return (
           <div key={r._id} className="">
             <main className="p-3 grid md:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1">

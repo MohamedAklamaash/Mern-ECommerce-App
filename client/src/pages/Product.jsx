@@ -21,7 +21,6 @@ const Product = ({ product }) => {
   
   return (
     <div className="flex flex-col items-center">
-      {console.log("Items:",items)}
       <Link to={`product/:${product._id}`}>
         <div className="p-3 flex flex-col items-center">
           <img src={product.images[0].url} width={230} height={130} />
