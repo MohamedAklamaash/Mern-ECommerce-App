@@ -1,10 +1,6 @@
 const mongoose = require("mongoose");
 
 const paymentSchema = new mongoose.Schema({
-  id: {
-    type: mongoose.Schema.ObjectId,
-    required: true,
-  },
   razorpay_payment_id: {
     type: String,
     required: true,

@@ -1,6 +1,6 @@
 const crypto = require("crypto");
 const paymentSchema = require("../models/PaymentSchema");
-const {instance} = require("../middleware/instance");
+const { instance } = require("../middleware/instance");
 
 const checkout = async (req, res) => {
   let options = {
@@ -14,6 +14,7 @@ const checkout = async (req, res) => {
 const payment = async (req, res) => {
   const { razorpay_payment_id, razorpay_order_id, razorpay_signature } =
     req.body;
+  console.log(req.body);
   const body = razorpay_order_id + "|" + razorpay_payment_id;
   const expectedSignature = crypto
     .createHmac("sha256", process.env.razorpay_api_key_secret)
@@ -22,19 +23,18 @@ const payment = async (req, res) => {
   const isAutentic = expectedSignature === razorpay_signature;
   if (isAutentic) {
     const data = await paymentSchema.create({
-        razorpay_order_id,
-        razorpay_payment_id,
-        razorpay_signature
+      razorpay_order_id,
+      razorpay_payment_id,
+      razorpay_signature,
     });
-    if(!data)
-    {
-        return res.json({success:false});
+    if (!data) {
+      return res.json({ success: false });
+    } else {
+      console.log(data);
+      res.redirect(
+        `http://localhost:3000/paymentSuccess?reference=${razorpay_payment_id}`
+      );
     }
-    res.redirect(
-      `http://localhost:3000/paymentSuccess?reference=${razorpay_payment_id}`
-    );
-  } else {
-    return res.json({ success: true });
   }
 };
 

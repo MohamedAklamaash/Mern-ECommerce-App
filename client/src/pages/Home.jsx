@@ -7,7 +7,6 @@ import { add, remove } from "../store/CartSlice";
 import { setProducts, statuses } from "../store/ProductSlice";
 import { fetchProducts } from "../store/ProductSlice";
 import FiltersComponent from "./FiltersComponent";
-
 const Home = () => {
   const dispatch = useDispatch();
   const { data, status } = useSelector((state) => state.product);
@@ -31,13 +30,13 @@ const Home = () => {
   }
 
   const product = {
-    name: "Blue T-Shirt",
+    name: "Blue T-shirt",
     images: [
       {
-        url: "https://media.istockphoto.com/id/186864796/photo/young-man-three-quarter-portrait.jpg?s=2048x2048&w=is&k=20&c=B8Gzir5R_Mw6TqZc-2busuFzrjJrxbyG-t6pUtemRds=",
+        url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU3y5WLA-9_heSoUD6cPFhI8qnwbZ7_jC64A&usqp=CAU",
       },
     ],
-    price: 10,
+    price: 100,
     _id: "6505f2bf5b5fa97b95d5dcc8",
   };
 

@@ -10,6 +10,7 @@ const orders = require("./routes/orderRoute");
 const cors = require("cors");
 const payment = require("./routes/paymentRoute");
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 app.use(cookieParser());
 app.use("/api/products",product);

@@ -19,6 +19,7 @@ const CartPage = () => {
       } = await axios.post("http://localhost:5001/api/payment/checkout", {
         amount,
       });
+      console.log("Order:",order);
       const options = {
         key, // Enter the Key ID generated from the Dashboard
         amount: order.amount, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
@@ -46,6 +47,7 @@ const CartPage = () => {
       console.log("Error in payment gateway")
     }
   };
+      console.log(window);
 
   if (items.length === 0) {
     return (
