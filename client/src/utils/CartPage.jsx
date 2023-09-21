@@ -3,11 +3,19 @@ import { useDispatch, useSelector } from "react-redux";
 import { remove } from "../store/CartSlice";
 import axios from "axios";
 import trashPng from "../assets/images/trash-icon-recycle-and-trash-sign-symbol-icon-free-png.webp";
+
 const CartPage = () => {
   const dispatch = useDispatch();
-  let [totalAmount, settotalAmount] = useState(0);
-  const [quantity, setquantity] = useState(1);
   const items = useSelector((state) => state.cart);
+
+  // Create a state to store quantities for each product
+  const [quantities, setQuantities] = useState({});
+
+  // Calculating  the total amount based on quantities
+  const totalAmount = items.reduce((total, item) => {
+    const quantity = quantities[item._id] || 1;
+    return total + quantity * item.price;
+  }, 0);
 
   const handleCheckout = async (amount) => {
     try {
@@ -19,7 +27,7 @@ const CartPage = () => {
       } = await axios.post("http://localhost:5001/api/payment/checkout", {
         amount,
       });
-      console.log("Order:",order);
+      console.log("Order:", order);
       const options = {
         key, // Enter the Key ID generated from the Dashboard
         amount: order.amount, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
@@ -44,10 +52,22 @@ const CartPage = () => {
       const razor = new window.Razorpay(options);
       razor.open();
     } catch (error) {
-      console.log("Error in payment gateway")
+      console.log("Error in payment gateway");
     }
   };
-      console.log(window);
+
+  const handleRemove = (itemId) => {
+    dispatch(remove(itemId));
+  };
+
+  // Function to handle quantity change for a specific product
+  const handleQuantityChange = (itemId, newQuantity) => {
+    // Update the quantities state with the new quantity for the specific product
+    setQuantities((prevQuantities) => ({
+      ...prevQuantities,
+      [itemId]: newQuantity,
+    }));
+  };
 
   if (items.length === 0) {
     return (
@@ -58,15 +78,9 @@ const CartPage = () => {
     );
   }
 
-  const handleRemove = (itemId) => {
-    dispatch(remove(itemId));
-  };
-
   return (
     <div className="">
-      <header className="text-center text-4xl mb-4">
-        <h1>Welcome to Cart Page:</h1>
-      </header>
+      {/* ... (your header) */}
       <main className="flex items-center justify-around mb-4">
         <table>
           <thead>
@@ -80,56 +94,65 @@ const CartPage = () => {
               <th>Remove From cart</th>
             </tr>
           </thead>
-          {items.map((item, index) => {
-            console.log("index:", item._id);
-            totalAmount += quantity * item?.price;
-            return (
-              <tbody className="text-center">
-                <tr>
-                  <td>
-                    <img
-                      src={item?.images[0]?.url}
-                      alt={item?.productName}
-                      width={200}
-                      height={200}
-                    />
-                  </td>
-                  <td>{item?.productName}</td>
-                  <td>{(quantity * item?.price)}</td>
-                  <td>{quantity}</td>
-                  <td>
-                    <button onClick={() => setquantity(quantity + 1)}>+</button>
-                  </td>
-                  <td>
-                    <button
-                      onClick={() => {
-                        quantity === 1
-                          ? setquantity(1)
-                          : setquantity(quantity - 1);
-                      }}
-                    >
-                      -
-                    </button>
-                  </td>
-                  <td>
-                    <img
-                      src={trashPng}
-                      alt="Remove From cart"
-                      width={50}
-                      height={50}
-                      className="md:ml-10 max-md:ml-4 cursor-pointer "
-                      onClick={() => handleRemove(item._id)}
-                    />
-                  </td>
-                </tr>
-              </tbody>
-            );
-          })}
+          <tbody>
+            {items.map((item) => (
+              <tr key={item._id}>
+                <td>
+                  <img
+                    src={item.images[0]?.url}
+                    alt={item.productName}
+                    width={200}
+                    height={200}
+                  />
+                </td>
+                <td>{item.productName}</td>
+                <td>{item.price}</td>
+                <td>{quantities[item._id] || 1}</td>
+                <td>
+                  <button
+                    onClick={() =>
+                      handleQuantityChange(
+                        item._id,
+                        (quantities[item._id] || 1) + 1
+                      )
+                    }
+                  >
+                    +
+                  </button>
+                </td>
+                <td>
+                  <button
+                    onClick={() =>
+                      handleQuantityChange(
+                        item._id,
+                        Math.max((quantities[item._id] || 1) - 1, 1)
+                      )
+                    }
+                  >
+                    -
+                  </button>
+                </td>
+                <td>
+                  <img
+                    src={trashPng}
+                    alt="Remove From cart"
+                    width={50}
+                    height={50}
+                    className="md:ml-10 max-md:ml-4 cursor-pointer"
+                    onClick={() => handleRemove(item._id)}
+                  />
+                </td>
+              </tr>
+            ))}
+          </tbody>
         </table>
       </main>
       <main className="flex flex-col items-center justify-center font-mono">
-        <h1 className="text-2xl">Total Price:{totalAmount}</h1>
-        <button className="cursor-pointer " onClick={() => handleCheckout(totalAmount)}>
+        <h1 className="text-2xl">Total Price: {totalAmount}</h1>
+        <button
+          className="cursor-pointer"
+          onClick={() => handleCheckout(totalAmount)}
+        >
           Checkout
         </button>
       </main>
