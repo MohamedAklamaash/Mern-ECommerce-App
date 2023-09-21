@@ -1,36 +1,524 @@
 [
     {
-        "productName": "Redmi Note 9 pro",
-        "description": "The Redmi Note 9 Pro is like your dependable, tech-savvy sidekick in the world of smartphones. With its sleek design and vibrant display, it's a head-turner that never fails to impress. Its powerful performance and long-lasting battery make it your trusted companion for all-day adventures. Plus, its camera captures memories in stunning detail, turning every moment into a masterpiece. The Redmi Note 9 Pro: where style meets substance, and innovation meets charm",
-        "price": 15000,
+        "productName": "Samsung Galaxy S22",
+        "description": "Experience the cutting-edge technology with the Samsung Galaxy S22. This flagship smartphone boasts a stunning display, powerful performance, and a top-tier camera system.",
+        "price": 899.99,
+        "rating":4.5,
         "images": [
             {
                 "public_id": "Phone Image",
-                "url": "https://www.phonesonline.ie/cdn/shop/products/xiaomi-note-9-pro-grey-1_1024x1024.jpg?v=1630767645"
+                "url": "https://www.digitaltrends.com/wp-content/uploads/2022/05/galaxy-s22-angled-shot.jpg?resize=625%2C417&p=1"
             },
             {
                 "public_id": "Phone Image",
-                "url": "https://i01.appmifile.com/webfile/globalimg/7/15944015-72FA-3105-CE5C-0C68E04C7BE6.png"
+                "url": "https://img.global.news.samsung.com/my/wp-content/uploads/2022/02/1-09-Galaxy-S22-Plus_Group-Image1_design_HI.jpg"
             }
         ],
         "category": "Phone",
-        "Stock": 10000
+        "Stock": 5000
     },
     {
-        "productName": "Realme Note 12 pro",
-        "description": "A Realme mid-range smartphone blends style, performance, and affordability. Modern design, a powerful processor, impressive camera capabilities, and long-lasting battery life make it a budget-friendly yet feature-rich choice for users.",
-        "price": 20000,
+        "productName": "iPhone 14 Pro Max",
+        "description": "The iPhone 14 Pro Max is Apple's pinnacle of innovation. It boasts a stunning OLED display, A16 Bionic chip, and an incredible camera system that captures professional-quality photos and videos.",
+        "price": 1199.99,
+        "rating": 5,
         "images": [
             {
                 "public_id": "Phone Image",
-                "url": "https://image01.realme.net/general/20221125/1669360530169.png.webp"
+                "url": "https://i0.wp.com/www.androidsage.com/wp-content/uploads/2022/09/iPhone-14-Pro-and-Pro-Max-Wallpapers-Download.jpg?w=1600&quality=100&ssl=1"
             },
             {
                 "public_id": "Phone Image",
-                "url": "https://image01.realme.net/general/20230713/1689223757355fd0079c2f520486ea1fb1ac724fc1fc6.jpg.webp"
+                "url": "https://images.macrumors.com/t/4UdtWI63s3vVRjhMIrZUDw7kVbw=/1600x/article-new/2022/09/iPhone-14-Pro-Rear-Camera.jpg"
+            }
+        ],
+        "category": "Phone",
+        "Stock": 3000
+    },
+    {
+        "productName": "Google Pixel 7",
+        "description": "The Google Pixel 7 offers pure Android goodness with exceptional camera capabilities. It's perfect for photography enthusiasts who want the best image quality.",
+        "price": 799.99,
+        "rating": 3.5,
+        "images": [
+            {
+                "public_id": "Phone Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNJDxUJBiZ7TfFGyhh5aAahJsvLMPklb0CjM2B8PkY&s"
+            },
+            {
+                "public_id": "Phone Image",
+                "url": "https://store.google.com/us/product/pixel_7/images/hero.png"
+            }
+        ],
+        "category": "Phone",
+        "Stock": 4500
+    },
+    {
+        "productName": "OnePlus 10 Pro",
+        "description": "The OnePlus 10 Pro combines sleek design with lightning-fast performance. Its OxygenOS provides a smooth user experience, and the camera system delivers stunning photos.",
+        "price": 899.00,
+        "rating": 2.5,
+        "images": [
+            {
+                "public_id": "Phone Image",
+                "url": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-10-pro-2.jpg"
+            },
+            {
+                "public_id": "Phone Image",
+                "url": "https://www.91-cdn.com/hub/wp-content/uploads/2021/11/OnePlus-10-Pro.jpg"
+            }
+        ],
+        "category": "Phone",
+        "Stock": 3500
+    },
+    {
+        "productName": "Xiaomi Mi 12",
+        "rating": 3,
+        "description": "The Xiaomi Mi 12 redefines flagship performance with its Snapdragon 8 Gen 2 chip and a high-refresh-rate display. Capture incredible photos with its advanced camera setup.",
+        "price": 899.99,
+        "images": [
+            {
+                "public_id": "Phone Image",
+                "url": "https://www.91-img.com/gallery_images_uploads/6/3/6347a82b144b02617e24c05688f736d717e412c0.jpg?tr=h-630,c-at_max,q-80"
+            },
+            {
+                "public_id": "Phone Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqlFaKvvIj87nk22a-TibJrkBxUIASvRJnVIZ6zLuY&s"
             }
         ],
         "category": "Phone",
         "Stock": 4000
+    },
+    {
+        "productName": "Sony Xperia 1 IV",
+        "description": "The Sony Xperia 1 IV is a multimedia powerhouse with its 4K OLED display and pro-level camera features. Enjoy stunning visuals and photography like never before.",
+        "price": 999.99,
+        "rating": 4.5,
+        "images": [
+            {
+                "public_id": "Phone Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVxHbi0tMdQN8P6l-Nu5W9KOZvYw1vMv5YSiy6IrulkA&s"
+            },
+            {
+                "public_id": "Phone Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmYxtylDEIMw-to6MWMNoMjuCG9tdCug0xdgnXl80z&s"
+            }
+        ],
+        "category": "Phone",
+        "Stock": 2500
+    },
+    {
+        "productName": "LG Velvet 3",
+        "rating": 1.5,
+        "description": "The LG Velvet 3 offers a unique design and a feature-rich experience. Its versatile camera system and vibrant display make it a great choice for multimedia enthusiasts.",
+        "price": 699.99,
+        "images": [
+            {
+                "public_id": "Phone Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3mADHGHT8msTa-ZPF6pbM6ZzrTQicRuJPhineILYg&s"
+            },
+            {
+                "public_id": "Phone Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3mADHGHT8msTa-ZPF6pbM6ZzrTQicRuJPhineILYg&s"
+            }
+        ],
+        "category": "Phone",
+        "Stock": 3000
+    },
+    {
+        "productName": "ASUS ZenFone 9",
+        "rating": 4.5,
+        "description": "The ASUS ZenFone 9 is a gaming powerhouse with its Snapdragon 8 Gen 2 chip and immersive display. Enjoy lag-free gaming and exceptional photography.",
+        "price": 799.00,
+        "images": [
+            {
+                "public_id": "Phone Image",
+                "url": "https://fdn2.gsmarena.com/vv/pics/asus/asus-zenfone-9-0.jpg"
+            },
+            {
+                "public_id": "Phone Image",
+                "url": "https: //encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo7orEpyPCUNCsold2D9h3tCmUplLaQxeYKaI8LQ6EJA&s"
+            }
+        ],
+        "category": "Phone",
+        "Stock": 3500
+    },
+    {
+        "productName": "Oppo Find X5",
+        "rating": 2.5,
+        "description": "The Oppo Find X5 combines elegant design with high-end performance. Its AI-enhanced camera system ensures you capture perfect shots every time.",
+        "price": 849.99,
+        "images": [
+            {
+                "public_id": "Phone Image",
+                "url": "https://fdn2.gsmarena.com/vv/pics/oppo/oppo-find-x5-pro-1.jpg"
+            },
+            {
+                "public_id": "Phone Image",
+                "url": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-x5-en/navigation/findx5-white-navigation.png"
+            }
+        ],
+        "category": "Phone",
+        "Stock": 4000
+    },
+    {
+        "productName": "Motorola Edge 3",
+        "rating": 3.5,
+        "description": "The Motorola Edge 3 offers a sleek and modern design with a focus on photography and 5G connectivity. Experience the future of mobile technology.",
+        "price": 750,
+        "images": [
+            {
+                "public_id": "Phone Image",
+                "url": "https://fdn2.gsmarena.com/vv/pics/motorola/motorola-edge-solar-black-1.jpg"
+            },
+            {
+                "public_id": "Phone Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFyWwdxE5uoPMu9www58qAm4Z47liLlBNmTMtQ9mKjAQ&s"
+            }
+        ],
+        "category": "Phone",
+        "Stock": 3000
+    },
+    {
+        "productName": "Huawei P50 Pro",
+        "rating": 1.5,
+        "description": "The Huawei P50 Pro boasts a revolutionary camera system with exceptional zoom capabilities. Enjoy a stunning display and premium design.",
+        "price": 899.00,
+        "images": [
+            {
+                "public_id": "Phone Image",
+                "url": "https://fdn2.gsmarena.com/vv/pics/huawei/huawei-p50-pro-2.jpg"
+            },
+            {
+                "public_id": "Phone Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7quK-7XjaxfOg5IjwnajpL8bQbZNR1l4Ya581tfY&s"
+            }
+        ],
+        "category": "Phone",
+        "Stock": 3500
+    },
+    {
+        "productName": "Motorola Razr 5G",
+        "rating": 1,
+        "description": "The Motorola Razr 5G combines iconic flip design with modern technology. Experience the nostalgia with a foldable touchscreen.",
+        "price": 1399.00,
+        "images": [
+            {
+                "public_id": "Phone Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST3Bkd4gDFHdtIUDIiafW31-jad3pDkVPJQJhWOzTXMA&s"
+            },
+            {
+                "public_id": "Phone Image",
+                "url": "https://fdn2.gsmarena.com/vv/pics/motorola/motorola-razr-5g-brush-gold-0.jpg"
+            }
+        ],
+        "category": "Phone",
+        "Stock": 2000
+    },
+    {
+        "productName": "Xiaomi Redmi Note 10",
+        "rating": 4.5,
+        "description": "The Xiaomi Redmi Note 10 offers excellent value with a high-refresh-rate display and versatile camera setup. It's a budget-friendly choice for tech enthusiasts.",
+        "price": 249.99,
+        "images": [
+            {
+                "public_id": "Phone Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUlNAK6LEspCpOxrl6cJAuX7iSLbp_W9DeW8eZmjZo&s"
+            },
+            {
+                "public_id": "Phone Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPULAlgASixLJSS0GhdNnDI_2tOM2za9iQvg8J8lU&s"
+            }
+        ],
+        "category": "Phone",
+        "Stock": 5000
+    },
+    {
+        "productName": "Sony Xperia 5 III",
+        "rating": 4.5,
+        "description": "The Sony Xperia 5 III is a compact powerhouse with a focus on gaming and photography. It features a 4K OLED display and triple camera setup.",
+        "price": 999.99,
+        "images": [
+            {
+                "public_id": "Phone Image",
+                "url": "https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-5-iii-02.jpg"
+            },
+            {
+                "public_id": "Phone Image",
+                "url": "https://amateurphotographer.com/wp-content/uploads/sites/7/2021/10/sony-xperia-5-iii-11.jpg"
+            }
+        ],
+        "category": "Phone",
+        "Stock": 3000
+    },
+    {
+        "productName": "Realme GT 2 Pro",
+        "rating": 4.5,
+        "description": "The Realme GT 2 Pro is a flagship killer with a Snapdragon 8 Gen 2 chip and a stunning Super AMOLED display. Enjoy top-tier performance without breaking the bank.",
+        "price": 799.00,
+        "images": [
+            {
+                "public_id": "Phone Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2LhJ6haurAyoMpBFldzXjPOwPsPWLJJA1uh9f6qPW&s"
+            },
+            {
+                "public_id": "Phone Image",
+                "url": "https://fdn2.gsmarena.com/vv/pics/realme/realme-gt2-pro-2.jpg"
+            }
+        ],
+        "category": "Phone",
+        "Stock": 4000
+    },
+    {
+        "productName": "Nokia 9 PureView",
+        "rating": 1,
+        "description": "The Nokia 9 PureView stands out with its five-camera array, designed for photography enthusiasts. Experience stock Android and exceptional image quality.",
+        "price": 699.99,
+        "images": [
+            {
+                "public_id": "Phone Image",
+                "url": "https://fdn2.gsmarena.com/vv/pics/nokia/nokia-9-pureview-4.jpg"
+            },
+            {
+                "public_id": "Phone Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdOaMUBPNjEvz7YPeUgT3upiJ8f5PXvihiy_Yis6cemQ&s"
+            }
+        ],
+        "category": "Phone",
+        "Stock": 2500
+    },
+    {
+        "productName": "ASUS ROG Phone 6",
+        "rating": 4.5,
+        "description": "The ASUS ROG Phone 6 is a gaming beast with a high-refresh-rate AMOLED display and customizable RGB lighting. Dominate mobile gaming with this powerhouse.",
+        "price": 999.00,
+        "images": [
+            {
+                "public_id": "Phone Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROTcyH_DD-QtLmwYCCa-sm6QN2EhsZgxunX_ixCNNG&s"
+            },
+            {
+                "public_id": "Phone Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyGh1mqhi3F6LTqRAh503y5IRekTxCfiUPhjPS2y4Xpw&s"
+            }
+        ],
+        "category": "Phone",
+        "Stock": 3000
+    },
+    {
+        "productName": "Google Pixel 6a",
+        "rating": 4.5,
+        "description": "The Google Pixel 6a offers the pure Android experience with impressive camera capabilities. Capture stunning photos and enjoy seamless software updates.",
+        "price": 599.99,
+        "images": [
+            {
+                "public_id": "Phone Image",
+                "url": "https://cdn.dxomark.com/wp-content/uploads/medias/post-119116/Pixel-6a_FR-5.jpg"
+            },
+            {
+                "public_id": "Phone Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQUSvf3fW3iwVLLaYldjb3Tk86nwk6tp3EpO2DEABSWw&s"
+            }
+        ],
+        "category": "Phone",
+        "Stock": 4500
+    },
+    {
+        "productName": "OnePlus Nord 2",
+        "rating": 4,
+        "description": "The OnePlus Nord 2 is a mid-range powerhouse with a focus on performance and camera quality. Experience OxygenOS and fast charging.",
+        "price": 499.00,
+        "images": [
+            {
+                "public_id": "Phone Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv7AbWsdZ8fF8gjhQVErp1LVM1EzyGDycZfCYy-aj8ew&s"
+            },
+            {
+                "public_id": "Phone Image",
+                "url": "https://www.digitaltrends.com/wp-content/uploads/2021/07/oneplus-nord-2-in-hand.jpg?p=1"
+            }
+        ],
+        "category": "Phone",
+        "Stock": 3500
+    },
+    {
+        "productName": "LG G8X ThinQ",
+        "rating": 4.5,
+        "description": "The LG G8X ThinQ offers dual-screen functionality for multitasking and creativity. Enjoy a flagship experience at a competitive price.",
+        "price": 699.99,
+        "images": [
+            {
+                "public_id": "Phone Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkJYXjyXolzk0_kx5YOLME0eG-WkreYcR701tTPZ-i&s"
+            },
+            {
+                "public_id": "Phone Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0GHECJClB0YKrnKLox5JgFrG_DoSTAPaMbbtMEzw-iw&s"
+            }
+        ],
+        "category": "Phone",
+        "Stock": 2000
+    },
+    {
+        "productName": "Dell XPS 13",
+        "rating": 4.5,
+        "description": "The Dell XPS 13 is a premium ultrabook with a stunning InfinityEdge display and powerful performance. Experience ultimate portability and style.",
+        "price": 1299.99,
+        "images": [
+            {
+                "public_id": "Laptop Image",
+                "url": "https://media.wired.com/photos/60f72daa3b922f01a2083b7e/1:1/w_1226,h_1226,c_limit/Gear-Dell-XPS-13-2021.jpg"
+            },
+            {
+                "public_id": "Laptop Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST207GqbeGKBCqwQEwdlHqcVOb6eN4zkYiriTmapFx&s"
+            }
+        ],
+        "category": "Laptop",
+        "Stock": 1500
+    },
+    {
+        "productName": "Apple MacBook Pro 14",
+        "rating": 5,
+        "description": "The Apple MacBook Pro 14 offers M1 Pro or M1 Max performance, a Retina XDR display, and macOS for creative professionals.",
+        "price": 1999.00,
+        "images": [
+            {
+                "public_id": "Laptop Image",
+                "url": "https://www.apple.com/v/macbook-pro-14-and-16/a/images/meta/macbook-pro-14-and-16_overview__fz0lron5xyuu_og.png"
+            },
+            {
+                "public_id": "Laptop Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWacaMctXNj7OOX5NBPVn3W_vw70CFd7-mcLqpniFD&s"
+            }
+        ],
+        "category": "Laptop",
+        "Stock": 1000
+    },
+    {
+        "productName": "HP Spectre x360",
+        "rating": 4.5,
+        "description": "The HP Spectre x360 is a versatile 2-in-1 laptop with a stunning OLED display and powerful performance. Enjoy flexibility and productivity.",
+        "price": 1299.99,
+        "images": [
+            {
+                "public_id": "Laptop Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRhNT-S0rYzY406BTjnsAnY86CIg1gETft-nU1cg48&s"
+            },
+            {
+                "public_id": "Laptop Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq9sg3wzY5bWTqyHdfAJ-uKbtwWghfBb6fZzhLSAuD&s"
+            }
+        ],
+        "category": "Laptop",
+        "Stock": 2000
+    },
+    {
+        "productName": "Lenovo ThinkPad X1 Carbon",
+        "rating": 2.5,
+        "description": "The Lenovo ThinkPad X1 Carbon is a business-class laptop with a durable build and excellent keyboard. It's designed for professionals on the go.",
+        "price": 1499.00,
+        "images": [
+            {
+                "public_id": "Laptop Image",
+                "url": "https://m.media-amazon.com/images/I/71wJJL7q8nL.jpg"
+            },
+            {
+                "public_id": "Laptop Image",
+                "url": "https://www.lenovo.com/medias/lenovo-laptops-x1-carbon-6th-gen-hero.png?context=bWFzdGVyfHJvb3R8Mjk0NzU4fGltYWdlL3BuZ3xoYTIvaDZjLzE0NDQ3MTYzNzM2MDk0LnBuZ3xiMThiNWJlY2NjODExN2U0M2E4ZDE2NGNmMTM2NTExMWZkNzYwMzE4YTBmNDE5YzFiNThhODc2ZDEzYTMwZWQ5"
+            }
+        ],
+        "category": "Laptop",
+        "Stock": 2500
+    },
+    {
+        "productName": "Asus ROG Zephyrus G14",
+        "rating": 4.5,
+        "description": "The Asus ROG Zephyrus G14 is a gaming laptop with a Ryzen 9 processor and Nvidia RTX graphics. Enjoy high-performance gaming on the go.",
+        "price": 1599.00,
+        "images": [
+            {
+                "public_id": "Laptop Image",
+                "url": "https://m.media-amazon.com/images/I/71nN3QRieeL._AC_UF1000,1000_QL80_.jpg"
+            },
+            {
+                "public_id": "Laptop Image",
+                "url": "https://i.rtings.com/assets/products/qcffEZCg/asus-rog-zephyrus-g14-2022/design-medium.jpg"
+            }
+        ],
+        "category": "Laptop",
+        "Stock": 1200
+    },
+    {
+        "productName": "Acer Swift 5",
+        "rating": 4.5,
+        "description": "The Acer Swift 5 is an ultra-lightweight laptop with a high-resolution display. It's perfect for travelers and those on the move.",
+        "price": 899.99,
+        "images": [
+            {
+                "public_id": "Laptop Image",
+                "url": "https://www.notebookcheck.net/fileadmin/Notebooks/Acer/Swift_5_SF514-54T-501U/Acer_Swift_5_SF514_54_Blue_main.png"
+            },
+            {
+                "public_id": "Laptop Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxi_YAVtKySdIHowilTIV07kDwAPavmimKYNhG9PseAg&s"
+            }
+        ],
+        "category": "Laptop",
+        "Stock": 1800
+    },
+    {
+        "productName": "Microsoft Surface Laptop 4",
+        "rating": 1.5,
+        "description": "The Microsoft Surface Laptop 4 offers a premium Windows experience with a sleek design and high-resolution PixelSense display.",
+        "price": 1299.00,
+        "images": [
+            {
+                "public_id": "Laptop Image",
+                "url": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/SurfaceLaptop4playvideo_tbmnl_en-ae?scl=1"
+            },
+            {
+                "public_id": "Laptop Image",
+                "url": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWBrzy?ver=85d4&q=90&m=6&h=705&w=1253&b=%23FFFFFFFF&f=jpg&o=f&p=140&aim=true"
+            }
+        ],
+        "category": "Laptop",
+        "Stock": 1500
+    },
+    {
+        "productName": "Razer Blade 15",
+        "rating": 4.5,
+        "description": "The Razer Blade 15 is a gaming laptop with RTX graphics and a high-refresh-rate display. It's designed for gamers and content creators.",
+        "price": 1799.99,
+        "images": [
+            {
+                "public_id": "Laptop Image",
+                "url": "https://www.razer.com/gaming-laptops/razer-blade"
+            },
+            {
+                "public_id": "Laptop Image",
+                "url": "https://www.razer.com/gaming-laptops/razer-blade"
+            }
+        ],
+        "category": "Laptop",
+        "Stock": 1000
+    },
+    {
+        "productName": "LG Gram 17",
+        "rating": 1,
+        "description": "The LG Gram 17 is an ultra-lightweight laptop with a large 17-inch display. Enjoy a large screen without sacrificing portability.",
+        "price": 1499.00,
+        "images": [
+            {
+                "public_id": "Laptop Image",
+                "url": "https://4.img-dpreview.com/files/p/E~TC1200x900S1200x900~articles/6096287211/DLCS1672-Edit.jpeg"
+            },
+            {
+                "public_id": "Laptop Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlR53DtKNjtDs7JLFePmwtaelZneePIVOpyCc1c-GhJQ&s"
+            }
+        ],
+        "category": "Laptop",
+        "Stock": 1200
     }
 ]

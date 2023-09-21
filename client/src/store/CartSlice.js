@@ -8,7 +8,8 @@ const cartSlice = createSlice({
   reducers: {
     add(state, action) {
       //redux : the pure functions are just loaded up claims throughout the application
-      state.push(...state, action.payload);
+      state.push(action.payload);
+      console.log(state)
       console.log("add func worked");
     },
     remove(state, action) {

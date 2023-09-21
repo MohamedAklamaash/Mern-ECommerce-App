@@ -1,0 +1,1056 @@
+[
+    {
+        "productName": "Elegant Red Evening Gown",
+        "description": "Make a statement with this elegant red evening gown. Perfect for formal occasions, this dress features a flowing silhouette and intricate beadwork.",
+        "price": 299.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://media.istockphoto.com/id/881857316/photo/fashion-model-art-dress-elegant-woman-in-red-retro-gown-silk-fabric-fluttering-in-storm.jpg?s=612x612&w=0&k=20&c=8D2-Rs47uZWnBgZQXfCfrAa6aapTlXpLlmlugyAj7wE="
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://i.pinimg.com/1200x/95/34/5f/95345f25d14da3700c8c6afb128fa0c3.jpg"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 50
+    },
+    {
+        "productName": "Bohemian Maxi Dress",
+        "description": "Channel your inner bohemian with this beautiful maxi dress. Featuring a floral print and a relaxed fit, it's perfect for a summer day out.",
+        "price": 79.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://m.media-amazon.com/images/I/71sVNFA123L._AC_UY1100_.jpg"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://m.media-amazon.com/images/I/81gqXE+-I4L._AC_UF350,350_QL80_.jpg"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 100
+    },
+    {
+        "productName": "Little Black Dress",
+        "description": "Every wardrobe needs a little black dress, and this one is a classic. It's versatile and suitable for various occasions, from cocktail parties to date nights.",
+        "price": 129.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxgc4UgHtueXiGmGzyzAJTG6z2zEfczJhZf48pkHSJ3w&s"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://media.istockphoto.com/id/915320148/photo/elegant-young-woman-is-looking-away-smiling-and-thinking.jpg?s=612x612&w=0&k=20&c=n2FD9mwA7bIU2ys8M3XM2L9Y_wlmVVOFcRtdF9RkUJc="
+            }
+        ],
+        "category": "Dress",
+        "Stock": 200
+    },
+    {
+        "productName": "Floral Sundress",
+        "description": "Stay fresh and stylish in this floral sundress. It's perfect for sunny days, picnics, and beach outings. The floral print adds a touch of charm.",
+        "price": 59.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://media.istockphoto.com/id/682499872/photo/blonde-young-woman-in-floral-spring-summer-dress.jpg?s=612x612&w=0&k=20&c=MlSCsbLetAOT3LCpYf9xAvEJUB2Xu6SrMdTIqfv6h6I="
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://media.istockphoto.com/id/880366686/photo/beautiful-hippie-woman-dancing-in-a-meadow.jpg?s=612x612&w=0&k=20&c=Y4HsQLoz35unCCeTI9mcSKN_mCwagdW874rXO8PvTIc="
+            }
+        ],
+        "category": "Dress",
+        "Stock": 150
+    },
+    {
+        "productName": "Vintage Lace Dress",
+        "description": "Embrace vintage elegance with this lace dress. Its timeless design and delicate lace detailing make it ideal for formal events and weddings.",
+        "price": 199.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-kEllWfg9j4n4ygUxjWuLOlIXs0qRslOr3CQUS-_bVA&ss"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://i.pinimg.com/originals/c2/68/88/c26888281e16267ccdabf0491d85c847.jpg"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 75
+    },
+    {
+        "productName": "Chic Midi Dress",
+        "description": "Step out in style with this chic midi dress. Its flattering silhouette and sophisticated design make it a go-to choice for various occasions.",
+        "price": 89.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/7/tr:w-270,/c71269bPC12_1.jpg?rnd=20200526195200"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://i.pinimg.com/474x/3b/a9/5c/3ba95c15c8fad5aeeffa5ac05db2eff7.jpg"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 120
+    },
+    {
+        "productName": "Boho Peasant Dress",
+        "description": "Experience boho chic with this peasant dress. It features embroidered details and a relaxed fit, perfect for casual outings and festivals.",
+        "price": 69.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJyHUjX3xjGBnIOCxXTarl56Qnegcl6x-7-USjKvPlag&s"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://omnichannelimages.global.ssl.fastly.net/prod/rockmans/1046741_900_1.JPG?width=590&height=767&quality=95&format=webps"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 100
+    },
+    {
+        "productName": "Formal Ball Gown",
+        "description": "Make a grand entrance with this formal ball gown. Its dramatic silhouette and intricate embellishments are perfect for gala events and balls.",
+        "price": 399.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://cdn.pixabay.com/photo/2016/03/31/14/40/woman-1292792_1280.jpg"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgT7y2BHxAEFwglxmSWt5b88Q0ziVOMlCk3Jct7owr&s"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 50
+    },
+    {
+        "productName": "Off-Shoulder A-Line Dress",
+        "description": "Show off your shoulders with this off-shoulder A-line dress. Its timeless design and flattering cut make it a versatile addition to your wardrobe.",
+        "price": 129.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://m.media-amazon.com/images/I/81YkHkdD9PL._AC_UY1100_.jpg"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://images.meesho.com/images/products/134419249/z4n2f_512.webp"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 100
+    },
+    {
+        "productName": "Casual T-Shirt Dress",
+        "description": "Stay comfortable and stylish with this casual t-shirt dress. It's perfect for everyday wear, and you can dress it up or down with accessories.",
+        "price": 49.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtO8BRl1ZLHkmS9iOj1Tnb1McQ92wCM5G-EuQuauPN&s"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://m.media-amazon.com/images/I/61sth7w8tlL.jpg"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 200
+    },
+    {
+        "productName": "Luxe Silk Slip Dress",
+        "description": "Indulge in luxury with this silk slip dress. Its smooth texture and minimalist design make it an elegant choice for special occasions.",
+        "price": 179.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/a/tr:w-270,/8a4705a847226-ISS_DR-83-B_3.jpg?rnd=20200526195200"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://cdn-images.farfetch-contents.com/17/15/15/12/17151512_36530631_600.jpg"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 75
+    },
+    {
+        "productName": "Striped Summer Dress",
+        "description": "Get ready for summer with this striped summer dress. Its playful design and lightweight fabric are perfect for beach vacations and sunny days.",
+        "price": 59.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://i.pinimg.com/736x/f8/f8/ee/f8f8ee23b1b95e0b3f05f0fbe0d2da6b.jpg"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNaQrbT9qTrD8CPGWaz6EPBhi-a9HxKl8P6ltb_TFQHg&s"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 150
+    },
+    {
+        "productName": "Retro Polka Dot Dress",
+        "description": "Step back in time with this retro polka dot dress. Its vintage-inspired design and playful dots add a touch of nostalgia to your look.",
+        "price": 69.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://thumbs.dreamstime.com/b/young-beautiful-sexy-woman-pin-up-style-clothes-posing-near-black-retro-car-polka-dot-white-dress-vintage-hairstyle-young-203218369.jpg"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfrFri1adM2Hd6OFXj3KRHX-RbtkM56nDdpEdJFBQ&s"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 120
+    },
+    {
+        "productName": "Glamorous Sequin Dress",
+        "description": "Shine and dazzle in this glamorous sequin dress. It's perfect for parties and special occasions, making you the center of attention.",
+        "price": 249.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://s3.ap-southeast-1.amazonaws.com/meesho-static-ethinos/s3fs-public/inline-images/Gold%20Sequin%20Dress.jpg?u9ggU.CpGITW3L5Qa_Od.KUicSE98Wji"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://s3.ap-southeast-1.amazonaws.com/meesho-static-ethinos/s3fs-public/inline-images/Gold%20Sequin%20Dress.jpg?u9ggU.CpGITW3L5Qa_Od.KUicSE98Wji"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 100
+    },
+    {
+        "productName": "Classic Wrap Dress",
+        "description": "Achieve a timeless look with this classic wrap dress. Its flattering style and versatile design are suitable for both casual and formal settings.",
+        "price": 99.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://i.pinimg.com/1200x/b9/4f/e1/b94fe164b173a6eaa52f8fcd5c3e8a8e.jpg"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://s3.r29static.com/bin/entry/558/x,80/1911127/image.jpg"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 150
+    },
+    {
+        "productName": "Trendy Denim Dress",
+        "description": "Stay on-trend with this denim dress. Its casual yet stylish design is perfect for a day out with friends or a weekend getaway.",
+        "price": 79.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://stylesatlife.com/wp-content/uploads/2018/04/15-Fashionable-Denim-Dress-Designs-for-Ladies-with-Images.jpg"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://wwd.com/wp-content/uploads/2023/05/denim-dresses-lead-art.jpg?w=911"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 180
+    },
+    {
+        "productName": "Boho Floral Maxi Dress",
+        "description": "Channel boho vibes with this floral maxi dress. Its relaxed fit and vibrant floral print make it a perfect choice for festivals and summer events.",
+        "price": 89.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsjd-wCb6F6YKQF8MEClYPgKpE_OdsmR1cD9vk9ULrEw&s"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://i.pinimg.com/1200x/af/22/2e/af222efcfb9dd847668ab3cddefe90db.jpg"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 100
+    },
+    {
+        "productName": "Elegant Lace Evening Gown",
+        "description": "Make a grand entrance with this elegant lace evening gown. Its intricate lace details and flattering silhouette are perfect for formal events.",
+        "price": 349.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://d44ri6pmeripj.cloudfront.net/morilee/wp-content/uploads/2022/04/07173740/product_img_72617_gallery_img_1-scaled.jpg"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://www.lulus.com/images/product/xlarge/9117981_1563416.jpg?w=375&hdpi=1"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 50
+    },
+    {
+        "productName": "Sleek Satin Cocktail Dress",
+        "description": "Dazzle at cocktail parties with this sleek satin dress. Its lustrous fabric and modern design make it a standout choice for special occasions.",
+        "price": 159.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://d44ri6pmeripj.cloudfront.net/morilee/wp-content/uploads/2022/11/08111538/product_img_9615_gallery_img_1-scaled.jpg"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToGKBHO_EGqwjCsWh1S1CumNwT0ZP0R_-Vo6Uecp_pQPY8DyGJ70kOtqk8_NIwIduXw3M&usqp=CAU"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 75
+    },
+    {
+        "productName": "Vintage Floral Tea Dress",
+        "description": "Capture vintage charm with this floral tea dress. Its retro-inspired print and tea-length design are perfect for garden parties and tea gatherings.",
+        "price": 89.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://asda.scene7.com/is/image/Asda/5059195674058?hei=684&wid=516&qlt=85&fmt=pjpg&resmode=sharp&op_usm=1.1,0.5,0,0&defaultimage=default_details_George_rd"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://asda.scene7.com/is/image/Asda/5059195674058?hei=684&wid=516&qlt=85&fmt=pjpg&resmode=sharp&op_usm=1.1,0.5,0,0&defaultimage=default_details_George_rd"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 120
+    },
+    {
+        "productName": "Ruffled Boho Dress",
+        "description": "Embrace boho chic with this ruffled dress. It features playful ruffles and a flowy design, making it a go-to choice for free-spirited fashion.",
+        "price": 79.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMrGhL9Hxy1bBC6Q2jhlDy8yqRTam75qPZzw&usqp=CAU"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://i.pinimg.com/736x/40/0a/3c/400a3c9d94b9edd7893f7c72371cd487.jpg"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 100
+    },
+    {
+        "productName": "Romantic Lace Midi Dress",
+        "description": "Step into romance with this lace midi dress. Its delicate lace and midi length create an enchanting look for date nights and special moments.",
+        "price": 129.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR59cAlTe8JCNLRKRvOfn2uciE6gVcF_2s4Sg&usqp=CAU"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEgwnVJkCHQD7E26_W8zACEQjyPJd-EJzPjw&usqp=CAU"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 100
+    },
+    {
+        "productName": "Polished A-Line Dress",
+        "description": "Achieve a polished look with this A-line dress. Its clean lines and timeless design make it a versatile addition to your professional wardrobe.",
+        "price": 99.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://images.urbndata.com/is/image/Anthropologie/84225218_040_b?$a15-pdp-detail-shot$&fit=constrain&qlt=80&wid=640"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://media.bostonproper.com/i/bostonproper/2CF7390_1?w=1500"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 150
+    },
+    {
+        "productName": "Tropical Print Maxi Dress",
+        "description": "Escape to the tropics with this maxi dress. Its vibrant tropical print and flowy silhouette are perfect for beach vacations and summer soirées.",
+        "price": 79.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS53R2ctQLdepjSVCIZB3yiv5oPsUPSRKWXCA&usqp=CAU"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy0ednn3j51fuGqxKRCdloPhCQJ0S5HmMLrg&usqp=CAU"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 120
+    },
+    {
+        "productName": "Sleek Bodycon Dress",
+        "description": "Show off your curves with this sleek bodycon dress. Its figure-hugging design and modern style make it a confident choice for a night out.",
+        "price": 89.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://assets.zeezest.com/web_stories/PROD_Deepika_0007_%20_1646593537726_thumb_500.jpeg"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://www.showpo.com/dw/image/v2/BDPQ_PRD/on/demandware.static/-/Sites-sp-master-catalog/default/dw9a933c46/images/celene-slim-fit-bodycon-maxi-dress-FD23040033/Celene_Slim_Fit_Bodycon_Maxi_Dress_in_Black_4.jpg?sw=1563&sh=2500"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 100
+    },
+    {
+        "productName": "Chic Shift Dress",
+        "description": "Stay chic and comfortable with this shift dress. Its relaxed fit and minimalist design are perfect for a day at the office or brunch with friends.",
+        "price": 69.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://www.lulus.com/images/product/xlarge/9160501_1875396.jpg?w=375&hdpi=1"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://i.pinimg.com/474x/d7/b3/b4/d7b3b46a46a6addbf202ad532e10be2e.jpg"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 180
+    },
+    {
+        "productName": "Garden Party Dress",
+        "description": "Celebrate in style with this garden party dress. Its floral print and whimsical design are perfect for outdoor events and summer gatherings.",
+        "price": 59.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://cdn.shopify.com/s/files/1/0216/3104/files/SPELL-Garden-Party-by-Tezza-Barton-Featuring-Kim-Riekenberg-10A.jpg?v=1635806507"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://i.pinimg.com/564x/f6/74/57/f67457e0d962562f757444c47ea16892.jpg"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 150
+    },
+    {
+        "productName": "Elegant Satin Gown",
+        "description": "Dazzle at formal events with this elegant satin gown. Its luxurious fabric and timeless design make it a standout choice for galas and weddings.",
+        "price": 349.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRavRipDKyOmBfwezNpUJuXDP7dMrzKX75gng&usqp=CAU"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRavRipDKyOmBfwezNpUJuXDP7dMrzKX75gng&usqp=CAU"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 50
+    },
+    {
+        "productName": "Sultry Velvet Dress",
+        "description": "Embrace luxury with this sultry velvet dress. Its plush velvet fabric and body-hugging design create a seductive look for special evenings.",
+        "price": 169.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://image.made-in-china.com/2f0j00iZfYSFDaYEbo/Long-Sleeve-Slim-Fashion-Velvet-Mini-Sexy-Bodycon-Party-Women-Dresses.webp"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQux0Z4L5Tg80RUdBPpHL2lPCOuiRUS9BoMdQ&usqp=CAU"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 75
+    },
+    {
+        "productName": "Effortless Tunic Dress",
+        "description": "Stay effortlessly stylish with this tunic dress. Its relaxed fit and versatile design make it a must-have for casual outings and weekends.",
+        "price": 49.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://lifestylefifty.com/wp-content/uploads/2018/06/fullsizeoutput_33a7.jpeg"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://i.pinimg.com/736x/fe/c7/6c/fec76ceedcb5069d2c96544263beda54--january--tunic-dresses.jpg"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 200
+    },
+    {
+        "productName": "Chic Pleated Dress",
+        "description": "Elevate your style with this chic pleated dress. Its pleated skirt and flattering silhouette make it a sophisticated choice for various occasions.",
+        "price": 99.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3PPmn3sRo3fGYMfG_WMNmW2DUC_1drU75wg&usqp=CAU"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3SKlQCKlyFA82fIprUWP16hfA0necGuHiZg&usqp=CAU"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 150
+    },
+    {
+        "productName": "Luxe Velvet Gown",
+        "description": "Drape yourself in luxury with this luxe velvet gown. Its opulent fabric and graceful design make it a showstopper at formal events.",
+        "price": 299.99,
+        "images": [
+            {
+                "public_id": "Dress Image",
+                "url": "https://www.dressforanight.com.au/cdn/shop/products/elle-zeitoune-fontaine-velvet-gown-red--9-dress-for-a-night-30754293.jpg?v=1643610094"
+            },
+            {
+                "public_id": "Dress Image",
+                "url": "https://i.pinimg.com/originals/5c/85/d7/5c85d748b9609fc0c735cbc3ac138e50.jpg"
+            }
+        ],
+        "category": "Dress",
+        "Stock": 50
+    },
+    {
+        "productName": "Classic Men's Suit",
+        "description": "Elevate your style with this classic men's suit. Tailored for a perfect fit, it's suitable for formal occasions, business meetings, and more.",
+        "price": 299.99,
+        "images": [
+            {
+                "public_id": "Suit Image",
+                "url": "https://www.suitsexpert.com/wp-content/uploads/2018/10/classic-navy-men-suit.jpg"
+            },
+            {
+                "public_id": "Suit Image",
+                "url": "https://www.italsuit.com/images/P/TZ-100-INDIGO.jpg"
+            }
+        ],
+        "category": "Men's Clothing",
+        "Stock": 100
+    },
+    {
+        "productName": "Stylish Leather Jacket",
+        "description": "Stay stylish and warm with this leather jacket. Its timeless design and high-quality leather make it a versatile addition to your wardrobe.",
+        "price": 199.99,
+        "images": [
+            {
+                "public_id": "Jacket Image",
+                "url": "https://www.hugme.fashion/image/cache/catalog/JK11/s-l400-800x1019.jpg"
+            },
+            {
+                "public_id": "Jacket Image",
+                "url": "https://i.pinimg.com/736x/b2/37/84/b2378447952157c9aab897efd0f1b867.jpg"
+            }
+        ],
+        "category": "Men's Clothing",
+        "Stock": 150
+    },
+    {
+        "productName": "Casual Men's T-Shirt",
+        "description": "Keep it casual with this comfortable men's t-shirt. It's perfect for everyday wear and comes in various colors and sizes.",
+        "price": 19.99,
+        "images": [
+            {
+                "public_id": "T-Shirt Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBE8MvFRMVjaPDN8bBfywf4N_Vxk1eY6yxHg&usqp=CAU"
+            },
+            {
+                "public_id": "T-Shirt Image",
+                "url": "https://img2.exportersindia.com/product_images/bc-full/2020/7/6614656/mens-t-shirt-1595914755-5535314.jpeg"
+            }
+        ],
+        "category": "Men's Clothing",
+        "Stock": 300
+    },
+    {
+        "productName": "Sporty Men's Sneakers",
+        "description": "Step up your game with these sporty men's sneakers. They provide comfort and style for your active lifestyle.",
+        "price": 79.99,
+        "images": [
+            {
+                "public_id": "Sneakers Image",
+                "url": "https://i02.appmifile.com/119_operator_in/01/09/2022/99a43b8fa576ad2720e849319e92f2a6!800x800!85.jpg"
+            },
+            {
+                "public_id": "Sneakers Image",
+                "url": "https://www.jiomart.com/images/product/original/rvrgwpjvsp/bruton-trendy-sports-shoes-for-men-blue-product-images-rvrgwpjvsp-0-202209021256.jpg?im=Resize=(500,630)"
+            }
+        ],
+        "category": "Men's Footwear",
+        "Stock": 200
+    },
+    {
+        "productName": "Classic Men's Watch",
+        "description": "Accessorize with this classic men's watch. Its timeless design and precision movement make it a stylish and reliable choice.",
+        "price": 149.99,
+        "images": [
+            {
+                "public_id": "Watch Image",
+                "url": "https://www.watchesandcrystals.com/cdn/shop/articles/top-10-classic-watches-for-men-468731.jpg?v=1664046473"
+            },
+            {
+                "public_id": "Watch Image",
+                "url": "https://m.media-amazon.com/images/I/71CXO5AegEL._AC_UY1000_.jpg"
+            }
+        ],
+        "category": "Men's Accessories",
+        "Stock": 100
+    },
+    {
+        "productName": "Dapper Bow Tie",
+        "description": "Add a touch of dapper to your outfit with this bow tie. It's perfect for formal events, weddings, and creating a polished look.",
+        "price": 29.99,
+        "images": [
+            {
+                "public_id": "Bow Tie Image",
+                "url": "https://images.lifestyleasia.com/wp-content/uploads/sites/7/2021/12/09094821/cameron-behymer-yr4kkvvnlxg-unsplash-scaled-1-1350x900.jpeg"
+            },
+            {
+                "public_id": "Bow Tie Image",
+                "url": "https://www.buzztribe.news/wp-content/uploads/2023/01/Five-Bow-Tie-Trends-For-Men-That-Can-Make-You-Look-Dapper.webp"
+            }
+        ],
+        "category": "Men's Accessories",
+        "Stock": 150
+    },
+    {
+        "productName": "Rugged Men's Backpack",
+        "description": "Carry your essentials in style with this rugged men's backpack. It's designed for durability and functionality, making it ideal for outdoor adventures.",
+        "price": 89.99,
+        "images": [
+            {
+                "public_id": "Backpack Image",
+                "url": "https://i.pinimg.com/564x/22/77/a4/2277a48928c9e7a39f05c8c9a611475c.jpg"
+            },
+            {
+                "public_id": "Backpack Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSub49KeATvjo2qbAbklrde3g-WS_-9qFpbsQ&usqp=CAU"
+            }
+        ],
+        "category": "Men's Accessories",
+        "Stock": 120
+    },
+    {
+        "productName": "Formal Men's Oxford Shoes",
+        "description": "Step into sophistication with these formal men's Oxford shoes. They feature a classic design and high-quality leather for a polished look.",
+        "price": 129.99,
+        "images": [
+            {
+                "public_id": "Shoes Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT00P1bHAMJxskTY4V_p31pRA16z63Q7Kikuw&usqp=CAU"
+            },
+            {
+                "public_id": "Shoes Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWINuPTKLs8DvGJykpBs1o4wrzSZKwY6A4KA&usqp=CAU"
+            }
+        ],
+        "category": "Men's Footwear",
+        "Stock": 100
+    },
+    {
+        "productName": "Men's Denim Jeans",
+        "description": "Upgrade your casual wardrobe with these men's denim jeans. They offer a comfortable fit and classic style for everyday wear.",
+        "price": 59.99,
+        "images": [
+            {
+                "public_id": "Jeans Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSDnIsRbVzL2xNWLwI6ZzkGItPitvgFBkFZA&usqp=CAU"
+            },
+            {
+                "public_id": "Jeans Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCEy1cWNVAv8jttrZO-kC4-QOsahZjJyeFNw&usqp=CAU"
+            }
+        ],
+        "category": "Men's Clothing",
+        "Stock": 250
+    },
+    {
+        "productName": "Men's Dress Shirt",
+        "description": "Look sharp with this men's dress shirt. It's tailored for a perfect fit and is suitable for professional settings and formal occasions.",
+        "price": 49.99,
+        "images": [
+            {
+                "public_id": "Shirt Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQrEj2ONxBnxUd20Xiq_Z50jszM2fnntZMhA&usqp=CAU"
+            },
+            {
+                "public_id": "Shirt Image",
+                "url": "https://www.mensjournal.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk3MjA2MTc1Mzk2MTQ0NDQ3/buttondownshirtsmain1.jpg"
+            }
+        ],
+        "category": "Men's Clothing",
+        "Stock": 200
+    },
+    {
+        "productName": "Classic Men's Blazer",
+        "description": "Add a touch of sophistication to your wardrobe with this classic men's blazer. It's perfect for formal events and elevating your style.",
+        "price": 249.99,
+        "images": [
+            {
+                "public_id": "Blazer Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfU6jgLdgL6UBF8HNLNk1F-Tu1QnQ-DQpieZ0iGmdzRvlNf8liD4ImJqvtDoR0QgBJgG4&usqp=CAU"
+            },
+            {
+                "public_id": "Blazer Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpn1NK808RWXo-Oa687oph5KlmHjRu1L84AQ&usqp=CAU"
+            }
+        ],
+        "category": "Men's Clothing",
+        "Stock": 100
+    },
+    {
+        "productName": "Men's Leather Belt",
+        "description": "Complete your outfit with this men's leather belt. It's crafted from genuine leather and features a timeless buckle design.",
+        "price": 39.99,
+        "images": [
+            {
+                "public_id": "Belt Image",
+                "url": "https://images-cdn.ubuy.co.in/6401d1003c37050afb5d5914-leather-luxury-strap-male-belt-men.jpg"
+            },
+            {
+                "public_id": "Belt Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaj-KUtGBpyCdZghyUQOW_tlWOUzwYehEVSQ&usqp=CAU"
+            }
+        ],
+        "category": "Men's Accessories",
+        "Stock": 150
+    },
+    {
+        "productName": "Casual Men's Hoodie",
+        "description": "Stay comfortable and stylish with this casual men's hoodie. It's perfect for casual outings and comes in various colors.",
+        "price": 49.99,
+        "images": [
+            {
+                "public_id": "Hoodie Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIaALR7SaI3u2ibHfEfWSClDHoRZTlGw-h6A&usqp=CAU"
+            },
+            {
+                "public_id": "Hoodie Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa5qbGoNjDF0zykpaIy9y7uI6VPjKdmrlWig&usqp=CAU"
+            }
+        ],
+        "category": "Men's Clothing",
+        "Stock": 200
+    },
+    {
+        "productName": "Men's Running Shoes",
+        "description": "Stay active with these men's running shoes. They offer excellent cushioning and support for your daily runs and workouts.",
+        "price": 79.99,
+        "images": [
+            {
+                "public_id": "Running Shoes Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHaXy-Xi1A2BncYCja5btmVmKeTu2tC7vbcg&usqp=CAU"
+            },
+            {
+                "public_id": "Running Shoes Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuCHhtg2czwpH4iI_Udm0eMtVtpvqH17wrxA&usqp=CAU"
+            }
+        ],
+        "category": "Men's Footwear",
+        "Stock": 250
+    },
+    {
+        "productName": "Elegant Men's Tie",
+        "description": "Complete your formal look with this elegant men's tie. Its classic design and high-quality silk fabric make it a must-have accessory.",
+        "price": 29.99,
+        "images": [
+            {
+                "public_id": "Tie Image",
+                "url": "https://img.freepik.com/premium-photo/fashion-accessory-business-detail-necktie-real-men-modern-formal-style-vintage-retro-style-groom-wedding-male-tie-male-shop-wedding-accessories-elegant-look-tie-perfect-daily-wear_474717-118279.jpg"
+            },
+            {
+                "public_id": "Tie Image",
+                "url": "https://m.media-amazon.com/images/I/71WMHrd3YvL._AC_UY1100_.jpg"
+            }
+        ],
+        "category": "Men's Accessories",
+        "Stock": 120
+    },
+    {
+        "productName": "Men's Messenger Bag",
+        "description": "Carry your essentials in style with this men's messenger bag. It's designed for convenience and offers ample storage space.",
+        "price": 69.99,
+        "images": [
+            {
+                "public_id": "Messenger Bag Image",
+                "url": "https://cdn.shopify.com/s/files/1/0712/1227/files/modern-messenger-coldbrew-studio-PLG-2023-06-30-937.jpg?v=1691099402"
+            },
+            {
+                "public_id": "Messenger Bag Image",
+                "url": "https://vonbaer.com/cdn/shop/articles/exquisite-leather-briefcase-shoulder-strap.jpg?v=1653322984"
+            }
+        ],
+        "category": "Men's Accessories",
+        "Stock": 180
+    },
+    {
+        "productName": "Men's Loafers",
+        "description": "Step into comfort and style with these men's loafers. They feature a classic design and are suitable for both formal and casual wear.",
+        "price": 89.99,
+        "images": [
+            {
+                "public_id": "Loafers Image",
+                "url": "https://images.meesho.com/images/products/57932751/sanus_512.webp"
+            },
+            {
+                "public_id": "Loafers Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS-tZVI86mHqIXAnuORwwPpO_ivwmrS3e_2gERbwiRupvQOlQswLL6dzxwy_uLqx2zSzk&usqp=CAU"
+            }
+        ],
+        "category": "Men's Footwear",
+        "Stock": 150
+    },
+    {
+        "productName": "Men's Chino Pants",
+        "description": "Upgrade your casual wardrobe with these men's chino pants. They offer a comfortable fit and versatile style for various occasions.",
+        "price": 59.99,
+        "images": [
+            {
+                "public_id": "Chino Pants Image",
+                "url": "https://www.beyoung.in/api/cache/catalog/products/new_chinos_update_image_23_9_2022/pale_green_chinos_for_men_base_25_1_2023_400x533.jpg"
+            },
+            {
+                "public_id": "Chino Pants Image",
+                "url": "https://www.beyoung.in/api/cache/catalog/products/new_chinos_update_image_23_9_2022/pale_green_chinos_for_men_base_25_1_2023_400x533.jpg"
+            }
+        ],
+        "category": "Men's Clothing",
+        "Stock": 200
+    },
+    {
+        "productName": "Men's Dress Shoes",
+        "description": "Step up your formal attire with these men's dress shoes. They feature a sleek design and premium leather for a polished look.",
+        "price": 129.99,
+        "images": [
+            {
+                "public_id": "Dress Shoes Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0ILJU9lgRT92GjvT5ZWT9f7b0RT6Qp18m-Q&usqp=CAU"
+            },
+            {
+                "public_id": "Dress Shoes Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTpKoazYr5YCzQkKXu38qGHIj83AbeW2XMhg&usqp=CAU"
+            }
+        ],
+        "category": "Men's Footwear",
+        "Stock": 100
+    },
+    {
+        "productName": "Men's Denim Jacket",
+        "description": "Stay stylish and versatile with this men's denim jacket. It's perfect for layering and adding a rugged edge to your outfit.",
+        "price": 69.99,
+        "images": [
+            {
+                "public_id": "Denim Jacket Image",
+                "url": "https://www.apetogentleman.com/wp-content/uploads/2019/03/wear-denim-jacket-men-1.jpg"
+            },
+            {
+                "public_id": "Denim Jacket Image",
+                "url": "https://freakins.com/cdn/shop/products/FreakinsMenswear-02707-min.jpg?v=1676452937"
+            }
+        ],
+        "category": "Men's Clothing",
+        "Stock": 180
+    },
+    {
+        "productName": "Men's Winter Coat",
+        "description": "Stay warm and stylish in winter with this men's winter coat. It features insulation and a classic design to keep you cozy.",
+        "price": 179.99,
+        "images": [
+            {
+                "public_id": "Winter Coat Image",
+                "url": "https://thedarkknot.com/cdn/shop/articles/PeaCoat.jpg?v=1485614004"
+            },
+            {
+                "public_id": "Winter Coat Image",
+                "url": "https://bestlifeonline.com/wp-content/uploads/sites/3/2019/09/handsome-man-winter-coat.jpg?quality=82&strip=all"
+            }
+        ],
+        "category": "Men's Clothing",
+        "Stock": 100
+    },
+    {
+        "productName": "Men's Baseball Cap",
+        "description": "Complete your casual look with this men's baseball cap. It's designed for comfort and features a stylish embroidered logo.",
+        "price": 19.99,
+        "images": [
+            {
+                "public_id": "Baseball Cap Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa5JiJSEP7KvqAiniHqJR4MKCU-sA2mIZAEQ&usqp=CAU"
+            },
+            {
+                "public_id": "Baseball Cap Image",
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7bmuNg3JuWGdvKEC-bZ5inM-lwo0fADTaiw&usqp=CAU"
+            }
+        ],
+        "category": "Men's Accessories",
+        "Stock": 300
+    },
+    {
+        "productName": "Men's Cargo Shorts",
+        "description": "Stay comfortable and functional with these men's cargo shorts. They offer multiple pockets and a relaxed fit for outdoor activities.",
+        "price": 34.99,
+        "images": [
+            {
+                "public_id": "Cargo Shorts Image",
+                "url": "hhttps://5.imimg.com/data5/WC/FP/MY-37820579/men-cargo-shorts.jpg"
+            },
+            {
+                "public_id": "Cargo Shorts Image",
+                "url": "https://5.imimg.com/data5/HY/RF/HB/SELLER-33432963/273-250x250.jpg"
+            }
+        ],
+        "category": "Men's Clothing",
+        "Stock": 250
+    },
+    {
+        "productName": "Men's Sunglasses",
+        "description": "Protect your eyes in style with these men's sunglasses. They feature UV protection and a modern design for a cool look.",
+        "price": 49.99,
+        "images": [
+            {
+                "public_id": "Sunglasses Image",
+                "url": "https://media.gq-magazine.co.uk/photos/640843c8334750a349594738/4:3/w_1440,h_1080,c_limit/SUNGLASSES.jpg"
+            },
+            {
+                "public_id": "Sunglasses Image",
+                "url": "https://i.pinimg.com/736x/e9/b0/d7/e9b0d7d976fda07b390623c28de6ed9e.jpg"
+            }
+        ],
+        "category": "Men's Accessories",
+        "Stock": 200
+    },
+    {
+        "productName": "Men's Swim Trunks",
+        "description": "Dive into summer with these men's swim trunks. They feature a vibrant print and quick-dry fabric for fun at the beach or pool.",
+        "price": 24.99,
+        "images": [
+            {
+                "public_id": "Swim Trunks Image",
+                "url": "https://www.cabanalife.com/cdn/shop/products/163-CM22MENSCAYMANREVERSIBLESWIMTRUNKS.jpg?v=1648055869"
+            },
+            {
+                "public_id": "Swim Trunks Image",
+                "url": "https://media.gq.com/photos/594d426cc7a0a309d05b8b40/16:9/w_2560%2Cc_limit/swimsuit-she-wants-you-to-wear-bond.jpg"
+            }
+        ],
+        "category": "Men's Clothing",
+        "Stock": 150
+    },
+    {
+        "productName": "Men's Leather Wallet",
+        "description": "Organize your essentials with this men's leather wallet. It's designed for convenience and offers multiple card slots and a sleek design.",
+        "price": 29.99,
+        "images": [
+            {
+                "public_id": "Wallet Image",
+                "url": "https://therealleathercompany.com/cdn/shop/products/the-bifold-mens-top-grain-leather-wallet-open-full.jpg?v=1593748415"
+            },
+            {
+                "public_id": "Wallet Image",
+                "url": "https://therealleathercompany.com/cdn/shop/products/the-bifold-mens-top-grain-leather-wallet-open-full.jpg?v=1593748415"
+            }
+        ],
+        "category": "Men's Accessories",
+        "Stock": 180
+    },
+    {
+        "productName": "Men's Slim Fit Jeans",
+        "description": "Achieve a modern look with these men's slim fit jeans. They offer a tailored fit and a versatile style for various occasions.",
+        "price": 54.99,
+        "images": [
+            {
+                "public_id": "Slim Fit Jeans Image",
+                "url": "https://img3.exportersindia.com/product_images/bc-full/2020/7/7516909/mens-slim-fit-jeans-1596099517-5538051.jpeg"
+            },
+            {
+                "public_id": "Slim Fit Jeans Image",
+                "url": "https://img.abercrombie.com/is/image/anf/KIC_331-3145-3031-278_model1?policy=product-medium"
+            }
+        ],
+        "category": "Men's Clothing",
+        "Stock": 200
+    },
+    {
+        "productName": "Men's Graphic Tee",
+        "description": "Express your style with this men's graphic tee. It features unique artwork and is perfect for showcasing your personality.",
+        "price": 24.99,
+        "images": [
+            {
+                "public_id": "Graphic Tee Image",
+                "url": "https://image.made-in-china.com/44f3j00AjNfOKnheZzc/Summer-New-Design-Men-Clothes-Graphic-Tee-Shirt-Short-Sleeve-Men-s-T-Shirts-Custom-Printing.jpg"
+            },
+            {
+                "public_id": "Graphic Tee Image",
+                "url": "https://image.made-in-china.com/44f3j00jAuQhgEZfwoC/Vintage-Black-Printed-Large-Graphic-Tees-Cotton-Tshirt-Men-Oversize-Crew-Neck-T-Shirts.jpg"
+            }
+        ],
+        "category": "Men's Clothing",
+        "Stock": 250
+    },
+    {
+        "productName": "Men's Sports Watch",
+        "description": "Track your workouts with this men's sports watch. It offers fitness features and a rugged design for active lifestyles.",
+        "price": 69.99,
+        "images": [
+            {
+                "public_id": "Sports Watch Image",
+                "url": "https://images.meesho.com/images/products/48013767/w4wu8_512.webp"
+            },
+            {
+                "public_id": "Sports Watch Image",
+                "url": "https://images.lifestyleasia.com/wp-content/uploads/sites/7/2022/10/20184504/luminox-1-1600x900.jpeg"
+            }
+        ],
+        "category": "Men's Accessories",
+        "Stock": 150
+    },
+    {
+        "productName": "Men's Fedora Hat",
+        "description": "Top off your look with this men's fedora hat. It adds a touch of elegance and complements both casual and formal attire.",
+        "price": 34.99,
+        "images": [
+            {
+                "public_id": "Fedora Hat Image",
+                "url": "https://metafields-manager-by-hulkapps.s3-accelerate.amazonaws.com/uploads/lock-hatters-shop.myshopify.com/1665046973-MENS-FEDORAS.jpg"
+            },
+            {
+                "public_id": "Fedora Hat Image",
+                "url": "https://metafields-manager-by-hulkapps.s3-accelerate.amazonaws.com/uploads/lock-hatters-shop.myshopify.com/1665046973-MENS-FEDORAS.jpg"
+            }
+        ],
+        "category": "Men's Accessories",
+        "Stock": 120
+    }
+]

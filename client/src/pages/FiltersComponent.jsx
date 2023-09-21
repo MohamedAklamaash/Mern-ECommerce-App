@@ -16,7 +16,6 @@ const FiltersComponent = () => {
         {"Maximum Price:"}
         {filteredPrice}
       </label>
-      {console.log(filteredPrice)}
       <div>
         <h2>Category</h2>
       </div>

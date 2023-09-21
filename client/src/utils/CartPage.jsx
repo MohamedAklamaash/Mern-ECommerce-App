@@ -67,7 +67,7 @@ const CartPage = () => {
       <header className="text-center text-4xl mb-4">
         <h1>Welcome to Cart Page:</h1>
       </header>
-      <main className="flex items-center justify-center mb-4">
+      <main className="flex items-center justify-around mb-4">
         <table>
           <thead>
             <tr>
@@ -82,19 +82,20 @@ const CartPage = () => {
           </thead>
           {items.map((item, index) => {
             console.log("index:", item._id);
+            totalAmount += quantity * item?.price;
             return (
               <tbody className="text-center">
                 <tr>
                   <td>
                     <img
-                      src={item.images[0].url}
-                      alt={item.name}
+                      src={item?.images[0]?.url}
+                      alt={item?.productName}
                       width={200}
                       height={200}
                     />
                   </td>
-                  <td>{item.name}</td>
-                  <td>{(totalAmount += quantity * item.price)}</td>
+                  <td>{item?.productName}</td>
+                  <td>{(quantity * item?.price)}</td>
                   <td>{quantity}</td>
                   <td>
                     <button onClick={() => setquantity(quantity + 1)}>+</button>
@@ -116,7 +117,7 @@ const CartPage = () => {
                       alt="Remove From cart"
                       width={50}
                       height={50}
-                      className="md:ml-10 max-md:ml-4  "
+                      className="md:ml-10 max-md:ml-4 cursor-pointer "
                       onClick={() => handleRemove(item._id)}
                     />
                   </td>
@@ -128,7 +129,7 @@ const CartPage = () => {
       </main>
       <main className="flex flex-col items-center justify-center font-mono">
         <h1 className="text-2xl">Total Price:{totalAmount}</h1>
-        <button className="" onClick={() => handleCheckout(totalAmount)}>
+        <button className="cursor-pointer " onClick={() => handleCheckout(totalAmount)}>
           Checkout
         </button>
       </main>

@@ -14,6 +14,8 @@ const Home = () => {
     dispatch(fetchProducts());
   }, [dispatch]);
 
+  // console.log(data)
+
   // const itemsFunction = async () => {
   //   let res = await axios.get("http://localhost:5001/api/products/products")
   //   const jsonData = await res.data;
@@ -29,16 +31,16 @@ const Home = () => {
     );
   }
 
-  const product = {
-    name: "Blue T-shirt",
-    images: [
-      {
-        url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU3y5WLA-9_heSoUD6cPFhI8qnwbZ7_jC64A&usqp=CAU",
-      },
-    ],
-    price: 100,
-    _id: "6505f2bf5b5fa97b95d5dcc8",
-  };
+  // const product = {
+  //   name: "Blue T-shirt",
+  //   images: [
+  //     {
+  //       url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU3y5WLA-9_heSoUD6cPFhI8qnwbZ7_jC64A&usqp=CAU",
+  //     },
+  //   ],
+  //   price: 100,
+  //   _id: "6505f2bf5b5fa97b95d5dcc8",
+  // };
 
   // let outputArray = [];
 
@@ -76,12 +78,11 @@ const Home = () => {
 
       <div className="grid md:grid-cols-4 px-4 py-2 mx-5">
         <FiltersComponent className="m-[5rem] p-3" />
-        {/*<Product product={data}*/}
-        <Product product={product} />
-        <Product product={product} />
-        <Product product={product} />
-        <Product product={product} />
-        <Product product={product} />
+        {data?.products?.map((product)=>{
+          return(
+            <Product product={product}/>
+          )
+        })}
       </div>
     </div>
   );
