@@ -8,8 +8,8 @@ const usersReducer = createSlice({
         profileUrl:[]
     },
     reducers:{
-        changeName(state,action){
-            state.user.name = action.payload;
+        changeUser(state,action){
+            state.user = action.payload;
         },
         setUser(state,action){
             state.user = action.payload;
