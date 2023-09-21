@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Cookies from "js-cookie";
 import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
 import { add, remove } from "../store/CartSlice";
@@ -39,17 +38,17 @@ const SearchProductsComponent = () => {
   }
 
   return (
-    <div>
+    <div className="p-3 grid md:grid-cols-3 items-center justify-center grid-cols-1 ">
       {res.map((r) => {
         return (
           <div key={r._id} className="">
-            <main className="p-3 grid md:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1">
+            <main className="">
               <div className="float-left h-[40vmin] w-[30%]  ">
                 <img
                   src={r.images[0].url}
                   alt={r.productName}
-                  width={400}
-                  height={400}
+                  width={200}
+                  height={200}
                   className="flex items-center justify-center"
                 />
               </div>

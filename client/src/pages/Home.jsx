@@ -66,7 +66,7 @@ const Home = () => {
         <p>Welcome to E-commerce</p>
         <h1>Find Amazing products below</h1>
         <i className="flex ">
-          <img src={mouseIcon} alt="icon" />{" "}
+          <img src={mouseIcon} alt="icon" />
           <p>Scroll to find amazing products</p>
         </i>
       </div>
@@ -77,7 +77,6 @@ const Home = () => {
       </div>
 
       <div className="grid md:grid-cols-4 px-4 py-2 mx-5">
-        <FiltersComponent className="m-[5rem] p-3" />
         {data?.products?.map((product)=>{
           return(
             <Product product={product}/>
