@@ -1,13 +1,24 @@
 import React, { useState } from "react";
-import axios from "axios";
 import HandleProfileupload from "./HandleProfileupload";
-import {useNavigate}  from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { useSelector } from "react-redux";
 const SignUpPage = () => {
   const navigate = useNavigate();
   const [name, setname] = useState("");
   const [email, setemail] = useState("");
   const [password, setpassword] = useState("");
-  const [image, setimage] = useState("");
+  const { profileUrl } = useSelector((state) => state.user);
+  if(!profileUrl)
+  {
+    return(
+      <div>
+        <h1>
+          error in uploading the image
+        </h1>
+      </div>
+    )
+  }
+  console.log("Profile url in signUp page:", profileUrl[0]);
   //upload image in avatar.url
   const HandleLogin = async () => {
     const data = await fetch("http://localhost:5001/api/users/register", {
@@ -16,29 +27,49 @@ const SignUpPage = () => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
+        avatar: {
+          url: profileUrl[0],
+        },
         name,
         email,
         password,
-        
       }),
     });
     const json = await data.json();
-    if(!json.success)
-    {
-      console.log("There is error in logging in from our side!");
+    localStorage.setItem("user_id",json.user._id);
+    console.log("ID:",localStorage.getItem("user_id"));
+    if (!json.success) {
+      navigate("/signup");
       return;
     }
-    if(json.success){
-      return(
-        <div className=" z-10 text-2xl font-medium" >
+    if (json.success) {
+      return (
+        <div className=" z-10 text-2xl font-medium">
           <h1>
             Thanks for logging in!💕
+            {navigate("/")}
           </h1>
         </div>
-      )
+      );
     }
-    navigate("/");
+    alert("There are some missing credentials!");
+    navigate("/signup");
   };
+  if(localStorage.getItem("user_id"))
+  {
+    return (
+      <div className="flex items-center justify-center h-[100vmin] ">
+        <main>
+          <h1 className="font-mono text-4xl">
+            User already logged in
+          </h1>
+          <button onClick={()=>localStorage.removeItem("user_id")} className="flex items-center">
+            <span className="text-lg font-sans">Do you want to</span>{"  "}Logout?
+          </button>
+        </main>
+      </div>
+    );
+  }
   return (
     <div>
       <header className=" mt-10 text-4xl text-center font-bold ">
@@ -65,7 +96,7 @@ const SignUpPage = () => {
               className="p-2 rounded-full w-[50%] border-2 border-b-slate-500 mb-16 "
               onChange={(event) => setemail(event.target.value)}
             />
-            <label className="text-lg font-semibold ">
+            <label className="text-lg font-semibold">
               Enter Your password:
             </label>
             <input
@@ -74,7 +105,7 @@ const SignUpPage = () => {
               placeholder="password"
               onChange={(event) => setpassword(event.target.value)}
             />
-            <div className="flex items-center justify-around  w-[50%]  ">
+            <div className="flex items-center justify-around  w-[50%]">
               <button
                 type="submit"
                 className="bg-black rounded-t-full rounded-br-full p-4 shadow-md font-serif text-lg text-grey text-[#fff] w-[10rem]"

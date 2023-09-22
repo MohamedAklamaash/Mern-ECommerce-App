@@ -5,7 +5,7 @@ const bcrypt = require("bcryptjs");
 const { sendToken } = require("../utils/jwtToken");
 const {sendEmail} = require("../utils/sendEmail");
 const createUser = AsyncErrorHandler(async(req,res,next)=>{
-    const {name,email,password} = req.body;
+    const {name,email,password,avatar:{url}} = req.body;
     const error = validationResult(req);
     if(!error.isEmpty())
     {
@@ -16,8 +16,8 @@ const createUser = AsyncErrorHandler(async(req,res,next)=>{
         email,
         password,
         avatar:{
-            public_id:"this is a sample id",
-            url:"Profile pic url"
+            public_id:"public id",
+            url,
         }
     })
     const token = user.getJwtToken();
@@ -25,7 +25,7 @@ const createUser = AsyncErrorHandler(async(req,res,next)=>{
     {
         return res.status(500).json({success:false,message:"User not created"});
     }
-    res.status(201).json({ success: true,token });
+    res.status(201).json({ success: true,user,token });
 })
 
 const loginUser = AsyncErrorHandler(async (req, res) => {

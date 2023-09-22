@@ -5,7 +5,7 @@ const usersReducer = createSlice({
     initialState:{
         user:{},
         token:{},
-        profileUrl:[]
+        profileUrl:[],
     },
     reducers:{
         changeUser(state,action){

@@ -75,12 +75,9 @@ const Home = () => {
           Featured Products
         </h1>
       </div>
-
-      <div className="grid md:grid-cols-4 px-4 py-2 mx-5">
-        {data?.products?.map((product)=>{
-          return(
-            <Product product={product}/>
-          )
+      <div className="grid md:grid-cols-4 px-4 py-2 mx-5 ">
+        {data?.products?.map((product) => {
+          return <Product product={product} />;
         })}
       </div>
     </div>

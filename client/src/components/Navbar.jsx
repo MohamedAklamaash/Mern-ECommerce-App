@@ -42,7 +42,7 @@ const Navbar = () => {
           </h4>
           <h4
             className=" hover:text-violet-400 cursor-pointer"
-            onClick={() => navigate("/products")}
+            onClick={() => navigate("/productsComponent")}
           >
             Product
           </h4>

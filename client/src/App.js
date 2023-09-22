@@ -13,6 +13,9 @@ import AboutUs from './utils/AboutUs';
 import Contact from './utils/Contact';
 import SearchProductsComponent from './utils/SearchProductsComponent';
 import SuccessPage from './utils/SuccessPage';
+import ProductsNavCompPage from './pages/ProductsNavCompPage';
+import PhonesSection from './pages/PhonesSection';
+import LaptopsSection from './pages/LaptopsSection';
 
 const App = () => {
   return (
@@ -30,6 +33,9 @@ const App = () => {
             <Route element={<Contact/>} path='/contact'/>
             <Route element={<SearchProductsComponent/>} path='/search'/>
             <Route element={<SuccessPage/>} path='/paymentSuccess'/>
+            <Route element={<ProductsNavCompPage/>} path='/productsComponent'/>
+            <Route element={<PhonesSection/>} path='/phoneSection'/>
+            <Route element={<LaptopsSection/>} path='/laptopSection'/>
           </Routes>
           <Footer />
         </Router>

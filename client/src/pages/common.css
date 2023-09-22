@@ -1,6 +1,7 @@
 .description{
   animation-duration: 3s;
   animation-name: slidein;
+  animation-delay: 3ms;
 }
 
 @keyframes slidein {

@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import dummyLogo from "../assets/DummyProfile.png";
 import axios from "axios";
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import { setProfileUrl } from "../store/userSlice";
 const HandleProfileupload = () => {
   const dispatch = useDispatch();
-  const item = useSelector((item) => item.user);
   const [image, setImage] = useState("");
   const [url, setUrl] = useState("");
   const [loading, setLoading] = useState(false);
@@ -13,6 +12,9 @@ const HandleProfileupload = () => {
 
   const uploadImage = async () => {
     setLoading(true);
+    if (image === "") {
+      return;
+    }
     try {
       const data = new FormData();
       data.append("file", image);
@@ -21,10 +23,10 @@ const HandleProfileupload = () => {
         "https://api.cloudinary.com/v1_1/duhkiwuqq/image/upload",
         data
       );
-      const imageUrl = response.data.secure_url;
+      const imageUrl = response?.data?.secure_url;
       setUrl(imageUrl);
-      dispatch(setProfileUrl(url));
-      console.log(item);
+        
+      dispatch(setProfileUrl(imageUrl));
       setPreview(imageUrl);
       setLoading(false);
     } catch (error) {
@@ -32,6 +34,10 @@ const HandleProfileupload = () => {
       setLoading(false);
     }
   };
+
+  useEffect(()=>{
+    uploadImage();
+  },[uploadImage])
 
   return (
     <div className="flex items-center justify-center">
@@ -53,12 +59,19 @@ const HandleProfileupload = () => {
         accept=".png,.jpeg,.jpg,.mkv,.svg"
         id="fileInput"
         className="hidden"
-        onChange={(event) => setImage(event.target.files[0])}
+        onChange={(event) => {
+          const selectedFile = event.target.files[0];
+          if (selectedFile && selectedFile.type.startsWith("image/")) {
+            setImage(selectedFile);
+          } else {
+            alert("Please select a valid image file.");
+          }
+        }}
       />
       <label
-        for="fileInput"
+        htmlFor="fileInput"
         className="inline-block cursor-pointer rounded-full absolute ml-[120px] mt-20 text-4xl border border-black w-[44px] text-center h-[44px]"
-        onClick={uploadImage}
+        onClick={() => uploadImage()}
       >
         +
       </label>
