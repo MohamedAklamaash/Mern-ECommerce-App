@@ -28,8 +28,7 @@ const SearchProductsComponent = () => {
   const handleCart = (product) => {
     dispatch(add(product));
   };
-
-  if (res.length === 0) {
+  if (keyword===""||res.length === 0) {
     return (
       <div>
         <h1>The product that you are searching for is not available.</h1>
