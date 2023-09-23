@@ -59,7 +59,7 @@ const SingleProductPage = () => {
           />
         </div>
         <div className="h-[50vmin] max-md:mb-[200px]">
-          <span>Device Name:</span>
+          <span>Product Name:</span>
           <h1 className="text-4xl font-mono">
             {productData?.product?.productName}
           </h1>

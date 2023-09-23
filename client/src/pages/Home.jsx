@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./pages.css";
 import mouseIcon from "../assets/icons8-mouse-64.png";
 import Product from "./Product";
@@ -7,8 +7,14 @@ import { add, remove } from "../store/CartSlice";
 import { setProducts, statuses } from "../store/ProductSlice";
 import { fetchProducts } from "../store/ProductSlice";
 import FiltersComponent from "./FiltersComponent";
+import pic1 from "../assets/images/Carousel1.jpeg";
+import pic2 from "../assets/images/Carousel2.webp";
+import pic3 from "../assets/images/Carousel3.jpeg";
+
 const Home = () => {
   const dispatch = useDispatch();
+  const slides = [pic1, pic2, pic3];
+  const [backgroundImage, setbackgroundImage] = useState(slides[0]);
   const { data, status } = useSelector((state) => state.product);
   useEffect(() => {
     dispatch(fetchProducts());
@@ -22,7 +28,19 @@ const Home = () => {
   //   console.log("Response:", res);
   //   setdata(jsonData.products);
   // };
-
+  useEffect(() => {
+    let currIndex = 0;
+    const backgroundImageChange = ()=>{
+      currIndex = (currIndex+1)%slides.length;
+      setbackgroundImage(slides[currIndex]);
+    }
+    const interval = setTimeout(() => {
+      backgroundImageChange();
+    }, 5000);
+    return(()=>{
+      clearInterval(interval);
+    })
+  });
   if (status === statuses.LOADING) {
     return (
       <div className="flex items-center justify-center h-[100vmin]">
@@ -57,23 +75,15 @@ const Home = () => {
   // if (items === null) {
   //   return <div>Loading...</div>;
   // }
-  // useEffect(() => {
-  //   dispatch(fetchProducts());
-  // });
+
   return (
     <div>
-      <div className="flex flex-col text-center items-center justify-center text-white bg-gradient-to-b from-blue-700 to-slate-400 h-[100vmin] m-[5vmax] text-4xl banner  ">
-        <p>Welcome to E-commerce</p>
-        <h1>Find Amazing products below</h1>
-        <i className="flex ">
-          <img src={mouseIcon} alt="icon" />
-          <p>Scroll to find amazing products</p>
-        </i>
-      </div>
-      <div className="flex items-center justify-center mt-3">
-        <h1 className=" ml-3 border border-x-0 w-[27%] text-center px-3 py-5 border-b-4 my-4 border-t-0 border-black text-4xl font-bold   ">
-          Featured Products
-        </h1>
+      <div className="bg-fixed bg-cover bg-center" style={{backgroundImage:`url(${backgroundImage})`,transition:"1s"}}>
+        <div className="h-[600px] flex items-center justify-end" >
+          <h1 className="text-white text-[75px] font-semibold mb-[200px] mr-10 ">
+            Begin Your Shopping Now 🤩
+          </h1>
+        </div>
       </div>
       <div className="grid md:grid-cols-4 px-4 py-2 mx-5 ">
         {data?.products?.map((product) => {

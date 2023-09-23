@@ -16,6 +16,8 @@ import SuccessPage from './utils/SuccessPage';
 import ProductsNavCompPage from './pages/ProductsNavCompPage';
 import PhonesSection from './pages/PhonesSection';
 import LaptopsSection from './pages/LaptopsSection';
+import DressesSection from './pages/DressesSection';
+import DressesHandlelerComponent from './pages/DressesHandlelerComponent';
 
 const App = () => {
   return (
@@ -36,6 +38,8 @@ const App = () => {
             <Route element={<ProductsNavCompPage/>} path='/productsComponent'/>
             <Route element={<PhonesSection/>} path='/phoneSection'/>
             <Route element={<LaptopsSection/>} path='/laptopSection'/>
+            <Route element={<DressesSection/>} path='/dressSection'/>
+            <Route element={<DressesHandlelerComponent/>} path='/apparels'/>
           </Routes>
           <Footer />
         </Router>

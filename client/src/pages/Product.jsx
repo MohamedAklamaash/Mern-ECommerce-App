@@ -21,7 +21,7 @@ const Product = ({ product }) => {
   
   return (
     <div className="flex flex-col items-center justify-center">
-      <Link to={`product/:${product._id}`}>
+      <Link to={`http://localhost:3000/product/:${product._id}`}>
         <div className="p-3 flex flex-col items-center">
           <img src={product?.images[0]?.url} width={300} height={300} alt={product.productName}/>
           <h1 className="text-lg font-mono ">{product.productName}</h1>

@@ -41,23 +41,13 @@ const productSlice = createSlice({
 //thunk function
 
 export const fetchProducts = createAsyncThunk("products/fetch", async () => {
-  const response = await fetch("http://localhost:5001/api/products/products");
+  const response = await fetch(
+    "http://localhost:5001/api/products/products?category=Laptop&category=Phone"
+  );
   const data = await response.json();
   return data;
 });
 
-
-
-export const fetchLaptopProducts = createAsyncThunk(
-  "phoneProducts/fetch",
-  async () => {
-    const response = await fetch(
-      "http://localhost:5001/api/products/products?category=Laptop"
-    );
-    const data = await response.json();
-    return data;
-  }
-);
 
 export const { setProducts, setStatus } = productSlice.actions;
 export default productSlice.reducer;

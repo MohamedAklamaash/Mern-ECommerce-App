@@ -1,26 +1,34 @@
 import React, { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 import axios from "axios";
-import Product from "./Product";
 import { statuses } from "../store/ProductSlice";
-const PhonesSection = () => {
+import Product from "./Product";
+
+const DressesHandlelerComponent = () => {
   const [dataarr, setdataarr] = useState([]);
   const [status, setstatus] = useState(statuses.LOADING);
+
+  const location = useLocation();
+  const queryParams = new URLSearchParams(location.search);
+  const category = queryParams.get("category");
+
   const fetchProducts = async () => {
+    console.log("Category:",category);
     try {
-      const fetched = await axios.get(
-        "http://localhost:5001/api/products/products?category=Laptop"
+      const products = await axios.get(
+        `http://localhost:5001/api/products/products?category=${category}`
       );
-      const json = fetched.data;
-      setdataarr(json.products);
+      const res = products.data;
+      setdataarr(res.products);
+      console.log("Data:", res.products);
       setstatus(statuses.IDLE);
     } catch (error) {
-      console.log("Error in phones section");
+      console.log("Error in Dresses Handler Component");
     }
   };
   useEffect(() => {
     fetchProducts();
   }, []);
-
   if (status === statuses.LOADING) {
     return (
       <div className="text-4xl h-[100vmin] w-[100%] flex items-center justify-center  ">
@@ -28,6 +36,7 @@ const PhonesSection = () => {
       </div>
     );
   }
+
   return (
     <div>
       <main className="grid md:grid-cols-4 grid-cols-2">
@@ -39,4 +48,4 @@ const PhonesSection = () => {
   );
 };
 
-export default PhonesSection;
+export default DressesHandlelerComponent;

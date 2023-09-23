@@ -13,8 +13,9 @@
                 "url": "https://i.pinimg.com/1200x/95/34/5f/95345f25d14da3700c8c6afb128fa0c3.jpg"
             }
         ],
-        "category": "Dress",
-        "Stock": 50
+        "category":"Women'sDresses",
+        "Stock": 50,
+        "rating":4.5
     },
     {
         "productName": "Bohemian Maxi Dress",
@@ -30,8 +31,9 @@
                 "url": "https://m.media-amazon.com/images/I/81gqXE+-I4L._AC_UF350,350_QL80_.jpg"
             }
         ],
-        "category": "Dress",
-        "Stock": 100
+        "category":"Women'sDresses",
+        "Stock": 100,
+        "rating": 3.5
     },
     {
         "productName": "Little Black Dress",
@@ -47,8 +49,9 @@
                 "url": "https://media.istockphoto.com/id/915320148/photo/elegant-young-woman-is-looking-away-smiling-and-thinking.jpg?s=612x612&w=0&k=20&c=n2FD9mwA7bIU2ys8M3XM2L9Y_wlmVVOFcRtdF9RkUJc="
             }
         ],
-        "category": "Dress",
-        "Stock": 200
+        "category":"Women'sDresses",
+        "Stock": 200,
+        "rating": 3.5
     },
     {
         "productName": "Floral Sundress",
@@ -64,8 +67,9 @@
                 "url": "https://media.istockphoto.com/id/880366686/photo/beautiful-hippie-woman-dancing-in-a-meadow.jpg?s=612x612&w=0&k=20&c=Y4HsQLoz35unCCeTI9mcSKN_mCwagdW874rXO8PvTIc="
             }
         ],
-        "category": "Dress",
-        "Stock": 150
+        "category":"Women'sDresses",
+        "Stock": 150,
+        "rating": 4.5
     },
     {
         "productName": "Vintage Lace Dress",
@@ -81,8 +85,9 @@
                 "url": "https://i.pinimg.com/originals/c2/68/88/c26888281e16267ccdabf0491d85c847.jpg"
             }
         ],
-        "category": "Dress",
-        "Stock": 75
+        "category":"Women'sDresses",
+        "Stock": 75,
+        "rating": 2.5
     },
     {
         "productName": "Chic Midi Dress",
@@ -98,8 +103,9 @@
                 "url": "https://i.pinimg.com/474x/3b/a9/5c/3ba95c15c8fad5aeeffa5ac05db2eff7.jpg"
             }
         ],
-        "category": "Dress",
-        "Stock": 120
+        "category":"Women'sDresses",
+        "Stock": 120,
+        "rating": 2.5
     },
     {
         "productName": "Boho Peasant Dress",
@@ -115,8 +121,9 @@
                 "url": "https://omnichannelimages.global.ssl.fastly.net/prod/rockmans/1046741_900_1.JPG?width=590&height=767&quality=95&format=webps"
             }
         ],
-        "category": "Dress",
-        "Stock": 100
+        "category":"Women'sDresses",
+        "Stock": 100,
+        "rating": 3.5
     },
     {
         "productName": "Formal Ball Gown",
@@ -132,8 +139,9 @@
                 "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgT7y2BHxAEFwglxmSWt5b88Q0ziVOMlCk3Jct7owr&s"
             }
         ],
-        "category": "Dress",
-        "Stock": 50
+        "category":"Women'sDresses",
+        "Stock": 50,
+        "rating": 2.5
     },
     {
         "productName": "Off-Shoulder A-Line Dress",
@@ -149,8 +157,9 @@
                 "url": "https://images.meesho.com/images/products/134419249/z4n2f_512.webp"
             }
         ],
-        "category": "Dress",
-        "Stock": 100
+        "category":"Women'sDresses",
+        "Stock": 100,
+        "rating": 2.5
     },
     {
         "productName": "Casual T-Shirt Dress",
@@ -166,8 +175,9 @@
                 "url": "https://m.media-amazon.com/images/I/61sth7w8tlL.jpg"
             }
         ],
-        "category": "Dress",
-        "Stock": 200
+        "category":"Women'sDresses",
+        "Stock": 200,
+        "rating": 4.5
     },
     {
         "productName": "Luxe Silk Slip Dress",
@@ -183,8 +193,9 @@
                 "url": "https://cdn-images.farfetch-contents.com/17/15/15/12/17151512_36530631_600.jpg"
             }
         ],
-        "category": "Dress",
-        "Stock": 75
+        "category":"Women'sDresses",
+        "Stock": 75,
+        "rating": 2.5
     },
     {
         "productName": "Striped Summer Dress",
@@ -200,8 +211,9 @@
                 "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNaQrbT9qTrD8CPGWaz6EPBhi-a9HxKl8P6ltb_TFQHg&s"
             }
         ],
-        "category": "Dress",
-        "Stock": 150
+        "category":"Women'sDresses",
+        "Stock": 150,
+        "rating": 3.5
     },
     {
         "productName": "Retro Polka Dot Dress",
@@ -217,8 +229,9 @@
                 "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfrFri1adM2Hd6OFXj3KRHX-RbtkM56nDdpEdJFBQ&s"
             }
         ],
-        "category": "Dress",
-        "Stock": 120
+        "category":"Women'sDresses",
+        "Stock": 120,
+        "rating": 4
     },
     {
         "productName": "Glamorous Sequin Dress",
@@ -234,8 +247,9 @@
                 "url": "https://s3.ap-southeast-1.amazonaws.com/meesho-static-ethinos/s3fs-public/inline-images/Gold%20Sequin%20Dress.jpg?u9ggU.CpGITW3L5Qa_Od.KUicSE98Wji"
             }
         ],
-        "category": "Dress",
-        "Stock": 100
+        "category":"Women'sDresses",
+        "Stock": 100,
+        "rating": 5
     },
     {
         "productName": "Classic Wrap Dress",
@@ -251,8 +265,9 @@
                 "url": "https://s3.r29static.com/bin/entry/558/x,80/1911127/image.jpg"
             }
         ],
-        "category": "Dress",
-        "Stock": 150
+        "category":"Women'sDresses",
+        "Stock": 150,
+        "rating": 3
     },
     {
         "productName": "Trendy Denim Dress",
@@ -268,8 +283,9 @@
                 "url": "https://wwd.com/wp-content/uploads/2023/05/denim-dresses-lead-art.jpg?w=911"
             }
         ],
-        "category": "Dress",
-        "Stock": 180
+        "category":"Women'sDresses",
+        "Stock": 180,
+        "rating": 4.2
     },
     {
         "productName": "Boho Floral Maxi Dress",
@@ -285,8 +301,9 @@
                 "url": "https://i.pinimg.com/1200x/af/22/2e/af222efcfb9dd847668ab3cddefe90db.jpg"
             }
         ],
-        "category": "Dress",
-        "Stock": 100
+        "category":"Women'sDresses",
+        "Stock": 100,
+        "rating": 4
     },
     {
         "productName": "Elegant Lace Evening Gown",
@@ -302,8 +319,9 @@
                 "url": "https://www.lulus.com/images/product/xlarge/9117981_1563416.jpg?w=375&hdpi=1"
             }
         ],
-        "category": "Dress",
-        "Stock": 50
+        "category":"Women'sDresses",
+        "Stock": 50,
+        "rating": 4.5
     },
     {
         "productName": "Sleek Satin Cocktail Dress",
@@ -319,7 +337,7 @@
                 "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToGKBHO_EGqwjCsWh1S1CumNwT0ZP0R_-Vo6Uecp_pQPY8DyGJ70kOtqk8_NIwIduXw3M&usqp=CAU"
             }
         ],
-        "category": "Dress",
+        "category":"Women'sDresses",
         "Stock": 75
     },
     {
@@ -336,8 +354,9 @@
                 "url": "https://asda.scene7.com/is/image/Asda/5059195674058?hei=684&wid=516&qlt=85&fmt=pjpg&resmode=sharp&op_usm=1.1,0.5,0,0&defaultimage=default_details_George_rd"
             }
         ],
-        "category": "Dress",
-        "Stock": 120
+        "category":"Women'sDresses",
+        "Stock": 120,
+        "rating": 3.5
     },
     {
         "productName": "Ruffled Boho Dress",
@@ -353,8 +372,9 @@
                 "url": "https://i.pinimg.com/736x/40/0a/3c/400a3c9d94b9edd7893f7c72371cd487.jpg"
             }
         ],
-        "category": "Dress",
-        "Stock": 100
+        "category":"Women'sDresses",
+        "Stock": 100,
+        "rating": 2.5
     },
     {
         "productName": "Romantic Lace Midi Dress",
@@ -370,8 +390,9 @@
                 "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEgwnVJkCHQD7E26_W8zACEQjyPJd-EJzPjw&usqp=CAU"
             }
         ],
-        "category": "Dress",
-        "Stock": 100
+        "category":"Women'sDresses",
+        "Stock": 100,
+        "rating": 1.5
     },
     {
         "productName": "Polished A-Line Dress",
@@ -387,8 +408,9 @@
                 "url": "https://media.bostonproper.com/i/bostonproper/2CF7390_1?w=1500"
             }
         ],
-        "category": "Dress",
-        "Stock": 150
+        "category":"Women'sDresses",
+        "Stock": 150,
+        "rating": 3.5
     },
     {
         "productName": "Tropical Print Maxi Dress",
@@ -404,8 +426,9 @@
                 "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy0ednn3j51fuGqxKRCdloPhCQJ0S5HmMLrg&usqp=CAU"
             }
         ],
-        "category": "Dress",
-        "Stock": 120
+        "category":"Women'sDresses",
+        "Stock": 120,
+        "rating": 2.5
     },
     {
         "productName": "Sleek Bodycon Dress",
@@ -421,8 +444,9 @@
                 "url": "https://www.showpo.com/dw/image/v2/BDPQ_PRD/on/demandware.static/-/Sites-sp-master-catalog/default/dw9a933c46/images/celene-slim-fit-bodycon-maxi-dress-FD23040033/Celene_Slim_Fit_Bodycon_Maxi_Dress_in_Black_4.jpg?sw=1563&sh=2500"
             }
         ],
-        "category": "Dress",
-        "Stock": 100
+        "category":"Women'sDresses",
+        "Stock": 100,
+        "rating": 4.5
     },
     {
         "productName": "Chic Shift Dress",
@@ -438,8 +462,9 @@
                 "url": "https://i.pinimg.com/474x/d7/b3/b4/d7b3b46a46a6addbf202ad532e10be2e.jpg"
             }
         ],
-        "category": "Dress",
-        "Stock": 180
+        "category":"Women'sDresses",
+        "Stock": 180,
+        "rating": 1.5
     },
     {
         "productName": "Garden Party Dress",
@@ -455,8 +480,9 @@
                 "url": "https://i.pinimg.com/564x/f6/74/57/f67457e0d962562f757444c47ea16892.jpg"
             }
         ],
-        "category": "Dress",
-        "Stock": 150
+        "category":"Women'sDresses",
+        "Stock": 150,
+        "rating": 3.5
     },
     {
         "productName": "Elegant Satin Gown",
@@ -472,8 +498,9 @@
                 "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRavRipDKyOmBfwezNpUJuXDP7dMrzKX75gng&usqp=CAU"
             }
         ],
-        "category": "Dress",
-        "Stock": 50
+        "category":"Women'sDresses",
+        "Stock": 50,
+        "rating": 2.5
     },
     {
         "productName": "Sultry Velvet Dress",
@@ -489,8 +516,9 @@
                 "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQux0Z4L5Tg80RUdBPpHL2lPCOuiRUS9BoMdQ&usqp=CAU"
             }
         ],
-        "category": "Dress",
-        "Stock": 75
+        "category":"Women'sDresses",
+        "Stock": 75,
+        "rating": 4.5
     },
     {
         "productName": "Effortless Tunic Dress",
@@ -506,8 +534,9 @@
                 "url": "https://i.pinimg.com/736x/fe/c7/6c/fec76ceedcb5069d2c96544263beda54--january--tunic-dresses.jpg"
             }
         ],
-        "category": "Dress",
-        "Stock": 200
+        "category":"Women'sDresses",
+        "Stock": 200,
+        "rating": 5
     },
     {
         "productName": "Chic Pleated Dress",
@@ -523,8 +552,9 @@
                 "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3SKlQCKlyFA82fIprUWP16hfA0necGuHiZg&usqp=CAU"
             }
         ],
-        "category": "Dress",
-        "Stock": 150
+        "category":"Women'sDresses",
+        "Stock": 150,
+        "rating": 0.5
     },
     {
         "productName": "Luxe Velvet Gown",
@@ -540,8 +570,9 @@
                 "url": "https://i.pinimg.com/originals/5c/85/d7/5c85d748b9609fc0c735cbc3ac138e50.jpg"
             }
         ],
-        "category": "Dress",
-        "Stock": 50
+        "category":"Women'sDresses",
+        "Stock": 50,
+        "rating": 3.2
     },
     {
         "productName": "Classic Men's Suit",
@@ -557,8 +588,9 @@
                 "url": "https://www.italsuit.com/images/P/TZ-100-INDIGO.jpg"
             }
         ],
-        "category": "Men's Clothing",
-        "Stock": 100
+        "category": "Men'sClothing",
+        "Stock": 100,
+        "rating": 1.5
     },
     {
         "productName": "Stylish Leather Jacket",
@@ -574,8 +606,9 @@
                 "url": "https://i.pinimg.com/736x/b2/37/84/b2378447952157c9aab897efd0f1b867.jpg"
             }
         ],
-        "category": "Men's Clothing",
-        "Stock": 150
+        "category": "Men'sClothing",
+        "Stock": 150,
+        "rating": 4.5
     },
     {
         "productName": "Casual Men's T-Shirt",
@@ -591,8 +624,9 @@
                 "url": "https://img2.exportersindia.com/product_images/bc-full/2020/7/6614656/mens-t-shirt-1595914755-5535314.jpeg"
             }
         ],
-        "category": "Men's Clothing",
-        "Stock": 300
+        "category": "Men'sClothing",
+        "Stock": 300,
+        "rating": 4.5
     },
     {
         "productName": "Sporty Men's Sneakers",
@@ -609,7 +643,8 @@
             }
         ],
         "category": "Men's Footwear",
-        "Stock": 200
+        "Stock": 200,
+        "rating": 4.5
     },
     {
         "productName": "Classic Men's Watch",
@@ -625,8 +660,9 @@
                 "url": "https://m.media-amazon.com/images/I/71CXO5AegEL._AC_UY1000_.jpg"
             }
         ],
-        "category": "Men's Accessories",
-        "Stock": 100
+        "category": "MenAccessories",
+        "Stock": 100,
+        "rating": 4.5
     },
     {
         "productName": "Dapper Bow Tie",
@@ -642,8 +678,9 @@
                 "url": "https://www.buzztribe.news/wp-content/uploads/2023/01/Five-Bow-Tie-Trends-For-Men-That-Can-Make-You-Look-Dapper.webp"
             }
         ],
-        "category": "Men's Accessories",
-        "Stock": 150
+        "category": "MenAccessories",
+        "Stock": 150,
+        "rating": 1.5
     },
     {
         "productName": "Rugged Men's Backpack",
@@ -659,8 +696,9 @@
                 "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSub49KeATvjo2qbAbklrde3g-WS_-9qFpbsQ&usqp=CAU"
             }
         ],
-        "category": "Men's Accessories",
-        "Stock": 120
+        "category": "MenAccessories",
+        "Stock": 120,
+        "rating": 2.5
     },
     {
         "productName": "Formal Men's Oxford Shoes",
@@ -677,7 +715,8 @@
             }
         ],
         "category": "Men's Footwear",
-        "Stock": 100
+        "Stock": 100,
+        "rating": 1.5
     },
     {
         "productName": "Men's Denim Jeans",
@@ -693,8 +732,9 @@
                 "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCEy1cWNVAv8jttrZO-kC4-QOsahZjJyeFNw&usqp=CAU"
             }
         ],
-        "category": "Men's Clothing",
-        "Stock": 250
+        "category": "Men'sClothing",
+        "Stock": 250,
+        "rating": 3.5
     },
     {
         "productName": "Men's Dress Shirt",
@@ -710,8 +750,9 @@
                 "url": "https://www.mensjournal.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk3MjA2MTc1Mzk2MTQ0NDQ3/buttondownshirtsmain1.jpg"
             }
         ],
-        "category": "Men's Clothing",
-        "Stock": 200
+        "category": "Men'sClothing",
+        "Stock": 200,
+        "rating": 2.5
     },
     {
         "productName": "Classic Men's Blazer",
@@ -727,8 +768,9 @@
                 "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpn1NK808RWXo-Oa687oph5KlmHjRu1L84AQ&usqp=CAU"
             }
         ],
-        "category": "Men's Clothing",
-        "Stock": 100
+        "category": "Men'sClothing",
+        "Stock": 100,
+        "rating": 2.5
     },
     {
         "productName": "Men's Leather Belt",
@@ -744,8 +786,9 @@
                 "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaj-KUtGBpyCdZghyUQOW_tlWOUzwYehEVSQ&usqp=CAU"
             }
         ],
-        "category": "Men's Accessories",
-        "Stock": 150
+        "category": "MenAccessories",
+        "Stock": 150,
+        "rating": 1.5
     },
     {
         "productName": "Casual Men's Hoodie",
@@ -761,8 +804,9 @@
                 "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa5qbGoNjDF0zykpaIy9y7uI6VPjKdmrlWig&usqp=CAU"
             }
         ],
-        "category": "Men's Clothing",
-        "Stock": 200
+        "category": "Men'sClothing",
+        "Stock": 200,
+        "rating": 4.5
     },
     {
         "productName": "Men's Running Shoes",
@@ -779,7 +823,8 @@
             }
         ],
         "category": "Men's Footwear",
-        "Stock": 250
+        "Stock": 250,
+        "rating": 4.5
     },
     {
         "productName": "Elegant Men's Tie",
@@ -795,8 +840,9 @@
                 "url": "https://m.media-amazon.com/images/I/71WMHrd3YvL._AC_UY1100_.jpg"
             }
         ],
-        "category": "Men's Accessories",
-        "Stock": 120
+        "category": "MenAccessories",
+        "Stock": 120,
+        "rating": 4.5
     },
     {
         "productName": "Men's Messenger Bag",
@@ -812,8 +858,9 @@
                 "url": "https://vonbaer.com/cdn/shop/articles/exquisite-leather-briefcase-shoulder-strap.jpg?v=1653322984"
             }
         ],
-        "category": "Men's Accessories",
-        "Stock": 180
+        "category": "MenAccessories",
+        "Stock": 180,
+        "rating": 4.5
     },
     {
         "productName": "Men's Loafers",
@@ -830,7 +877,8 @@
             }
         ],
         "category": "Men's Footwear",
-        "Stock": 150
+        "Stock": 150,
+        "rating": 4.5
     },
     {
         "productName": "Men's Chino Pants",
@@ -846,8 +894,9 @@
                 "url": "https://www.beyoung.in/api/cache/catalog/products/new_chinos_update_image_23_9_2022/pale_green_chinos_for_men_base_25_1_2023_400x533.jpg"
             }
         ],
-        "category": "Men's Clothing",
-        "Stock": 200
+        "category": "Men'sClothing",
+        "Stock": 200,
+        "rating": 3.5
     },
     {
         "productName": "Men's Dress Shoes",
@@ -864,7 +913,8 @@
             }
         ],
         "category": "Men's Footwear",
-        "Stock": 100
+        "Stock": 100,
+        "rating": 4.5
     },
     {
         "productName": "Men's Denim Jacket",
@@ -880,8 +930,9 @@
                 "url": "https://freakins.com/cdn/shop/products/FreakinsMenswear-02707-min.jpg?v=1676452937"
             }
         ],
-        "category": "Men's Clothing",
-        "Stock": 180
+        "category": "Men'sClothing",
+        "Stock": 180,
+        "rating": 4.5
     },
     {
         "productName": "Men's Winter Coat",
@@ -897,8 +948,9 @@
                 "url": "https://bestlifeonline.com/wp-content/uploads/sites/3/2019/09/handsome-man-winter-coat.jpg?quality=82&strip=all"
             }
         ],
-        "category": "Men's Clothing",
-        "Stock": 100
+        "category": "Men'sClothing",
+        "Stock": 100,
+        "rating": 4.5
     },
     {
         "productName": "Men's Baseball Cap",
@@ -914,8 +966,9 @@
                 "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7bmuNg3JuWGdvKEC-bZ5inM-lwo0fADTaiw&usqp=CAU"
             }
         ],
-        "category": "Men's Accessories",
-        "Stock": 300
+        "category": "MenAccessories",
+        "Stock": 300,
+        "rating": 4.5
     },
     {
         "productName": "Men's Cargo Shorts",
@@ -931,8 +984,9 @@
                 "url": "https://5.imimg.com/data5/HY/RF/HB/SELLER-33432963/273-250x250.jpg"
             }
         ],
-        "category": "Men's Clothing",
-        "Stock": 250
+        "category": "Men'sClothing",
+        "Stock": 250,
+        "rating": 4.5
     },
     {
         "productName": "Men's Sunglasses",
@@ -948,8 +1002,9 @@
                 "url": "https://i.pinimg.com/736x/e9/b0/d7/e9b0d7d976fda07b390623c28de6ed9e.jpg"
             }
         ],
-        "category": "Men's Accessories",
-        "Stock": 200
+        "category": "MenAccessories",
+        "Stock": 200,
+        "rating": 4
     },
     {
         "productName": "Men's Swim Trunks",
@@ -965,8 +1020,9 @@
                 "url": "https://media.gq.com/photos/594d426cc7a0a309d05b8b40/16:9/w_2560%2Cc_limit/swimsuit-she-wants-you-to-wear-bond.jpg"
             }
         ],
-        "category": "Men's Clothing",
-        "Stock": 150
+        "category": "Men'sClothing",
+        "Stock": 150,
+        "rating": 2
     },
     {
         "productName": "Men's Leather Wallet",
@@ -982,8 +1038,9 @@
                 "url": "https://therealleathercompany.com/cdn/shop/products/the-bifold-mens-top-grain-leather-wallet-open-full.jpg?v=1593748415"
             }
         ],
-        "category": "Men's Accessories",
-        "Stock": 180
+        "category": "MenAccessories",
+        "Stock": 180,
+        "rating": 3
     },
     {
         "productName": "Men's Slim Fit Jeans",
@@ -999,8 +1056,9 @@
                 "url": "https://img.abercrombie.com/is/image/anf/KIC_331-3145-3031-278_model1?policy=product-medium"
             }
         ],
-        "category": "Men's Clothing",
-        "Stock": 200
+        "category": "Men'sClothing",
+        "Stock": 200,
+        "rating": 4.5
     },
     {
         "productName": "Men's Graphic Tee",
@@ -1016,8 +1074,9 @@
                 "url": "https://image.made-in-china.com/44f3j00jAuQhgEZfwoC/Vintage-Black-Printed-Large-Graphic-Tees-Cotton-Tshirt-Men-Oversize-Crew-Neck-T-Shirts.jpg"
             }
         ],
-        "category": "Men's Clothing",
-        "Stock": 250
+        "category": "Men'sClothing",
+        "Stock": 250,
+        "rating": 4.5
     },
     {
         "productName": "Men's Sports Watch",
@@ -1033,8 +1092,9 @@
                 "url": "https://images.lifestyleasia.com/wp-content/uploads/sites/7/2022/10/20184504/luminox-1-1600x900.jpeg"
             }
         ],
-        "category": "Men's Accessories",
-        "Stock": 150
+        "category": "MenAccessories",
+        "Stock": 150,
+        "rating": 1.5
     },
     {
         "productName": "Men's Fedora Hat",
@@ -1050,7 +1110,8 @@
                 "url": "https://metafields-manager-by-hulkapps.s3-accelerate.amazonaws.com/uploads/lock-hatters-shop.myshopify.com/1665046973-MENS-FEDORAS.jpg"
             }
         ],
-        "category": "Men's Accessories",
-        "Stock": 120
+        "category": "MenAccessories",
+        "Stock": 120,
+        "rating": 4.5
     }
 ]

@@ -1,19 +1,34 @@
-import React,{useEffect} from 'react';
+import React,{useEffect,useState} from 'react';
 import { useSelector,useDispatch } from 'react-redux';
 import { fetchPhoneProducts } from '../store/PhoneSlice';
+import axios from "axios";
 import Product from './Product';
 import { statuses } from '../store/ProductSlice';
 const PhonesSection = () => {
-  const {data,status} = useSelector((state) => state.phone);
+  const [dataarr, setdataarr] = useState([]);
+  const [status, setstatus] = useState(statuses.LOADING);
   const dispatch = useDispatch();
+  const fetchProducts = async()=>{
+    try {
+      const fetched = await axios.get(
+        "http://localhost:5001/api/products/products?category=Phone"
+      );
+      const json = fetched.data;
+      setdataarr(json.products)
+      setstatus(statuses.IDLE);
+    } catch (error) {
+      console.log("Error in phones section");
+    }
+  }
   useEffect(()=>{
     dispatch(fetchPhoneProducts());
+    fetchProducts();
   },[])
-  console.log("Status:",status);
+
   if(status === statuses.LOADING)
   {
     return(
-        <div>
+        <div className='text-4xl h-[100vmin] w-[100%] flex items-center justify-center  '>
             <h1>
                 Loading...
             </h1>
@@ -24,7 +39,7 @@ const PhonesSection = () => {
     <div>
       <main className="grid md:grid-cols-4 grid-cols-2">
         {
-            data.products.map((product)=>{
+            dataarr.map((product)=>{
                 return(
                     <Product product={product}/>
                 )

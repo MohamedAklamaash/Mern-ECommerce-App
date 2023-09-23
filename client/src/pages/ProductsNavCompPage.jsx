@@ -27,7 +27,7 @@ const ProductsNavCompPage = () => {
           </a>
         </div>
         <div>
-          <a>
+          <a href="/dressSection">
             <img
               width={277}
               height={260}
