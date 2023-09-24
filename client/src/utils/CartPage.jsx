@@ -3,8 +3,9 @@ import { useDispatch, useSelector } from "react-redux";
 import { remove } from "../store/CartSlice";
 import axios from "axios";
 import trashPng from "../assets/images/trash-icon-recycle-and-trash-sign-symbol-icon-free-png.webp";
-
+import { useNavigate } from "react-router-dom";
 const CartPage = () => {
+  const navigate = useNavigate();
   const dispatch = useDispatch();
   const items = useSelector((state) => state.cart);
 
@@ -18,6 +19,17 @@ const CartPage = () => {
   }, 0);
 
   const handleCheckout = async (amount) => {
+    if(!localStorage.getItem("user_id"))
+    {
+      return (
+        <div className="min-h-screen w-[100%] text-4xl translate-x-1 ">
+          <h1>
+            Login to checkout the item!
+            {navigate("/login")}
+          </h1>
+        </div>
+      )
+    }
     try {
       const {
         data: { key },
