@@ -13,6 +13,7 @@ const {
   updateUserPassword,
   deleteUser
 } = require("../controllers/usersStuff");
+
 const { isUserAuthenticated, authorizedRoles } = require("../middleware/auth");
 const { getAlluserDetails } = require("../controllers/adminStuff");
 const { createProductReview, deleteReview, getProductReview } = require("../controllers/productsStuff");

@@ -20,7 +20,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" pt-3 px-4 ">
+    <div className=" pt-3 px-4 font-serif ">
       <header className="flex justify-between items-center">
         <div className="w-[60px]">
           <img
