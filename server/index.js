@@ -11,20 +11,18 @@ const cors = require("cors");
 const payment = require("./routes/paymentRoute");
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(
-  cors({
-    origin: "https://aklamaash-e-commerce-app.vercel.app",
-    methods: ["GET", "POST", "PUT", "DELETE"],
-  })
-);
 app.get("/statusCheck",(req,res)=>{
     return res.send("Hello World");
 })
-app.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "*");
-  next();
-});
-
+app.use(cors());
+app.options('*',cors());
+const allowCrossDomain = function(req,res,next) {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', 'GET, PUT, POST, DELETE');
+  res.header('Access-Control-Allow-Headers', 'Content-Type');
+  next();  
+}
+app.use(allowCrossDomain);
 app.use(cookieParser());
 app.use("/api/products",product);
 app.use("/api/users",user);
