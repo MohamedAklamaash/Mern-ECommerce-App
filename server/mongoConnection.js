@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const mongoConnect = async()=>{
     await mongoose
       .connect(
-        `mongodb+srv://aklamaash:N4OGo3YYg8CNZxUl@e-commerce.xdbrkkn.mongodb.net/E-Commerce?retryWrites=true&w=majority`
+        `mongodb+srv://aklamaash:${process.env.USER_PASS}@e-commerce.xdbrkkn.mongodb.net/E-Commerce?retryWrites=true&w=majority`
       )
       .then(() => {
         console.log("Database connected successfully");
