@@ -18,6 +18,9 @@ app.use(
     credentials: true,
   })
 );
+app.get("/statusCheck",(req,res)=>{
+    return res.send("Hello World");
+})
 app.use(cookieParser());
 app.use("/api/products",product);
 app.use("/api/users",user);
