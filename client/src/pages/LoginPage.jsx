@@ -7,13 +7,16 @@ const LoginPage = () => {
   const [password, setpassword] = useState("");
   const dispatch = useDispatch();
   const HandleLogin = async () => {
-    const data = await fetch("http://localhost:5001/api/users/login", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ email, password }),
-    }).catch(() => {
+    const data = await fetch(
+      "https://aklamaash-e-commerce.vercel.app/api/users/login",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email, password }),
+      }
+    ).catch(() => {
       alert("Invalid Credentials");
     });
     const json = await data.json();

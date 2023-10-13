@@ -21,20 +21,23 @@ const SignUpPage = () => {
   console.log("Profile url in signUp page:", profileUrl[0]);
   //upload image in avatar.url
   const HandleLogin = async () => {
-    const data = await fetch("http://localhost:5001/api/users/register", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        avatar: {
-          url: profileUrl[0],
+    const data = await fetch(
+      "https://aklamaash-e-commerce.vercel.app/api/users/register",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
         },
-        name,
-        email,
-        password,
-      }),
-    });
+        body: JSON.stringify({
+          avatar: {
+            url: profileUrl[0],
+          },
+          name,
+          email,
+          password,
+        }),
+      }
+    );
     const json = await data.json();
     localStorage.setItem("user_id",json.user._id);
     console.log("ID:",localStorage.getItem("user_id"));

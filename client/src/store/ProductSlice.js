@@ -42,7 +42,7 @@ const productSlice = createSlice({
 
 export const fetchProducts = createAsyncThunk("products/fetch", async () => {
   const response = await fetch(
-    "http://localhost:5001/api/products/products?category=Laptop&category=Phone"
+    "https://aklamaash-e-commerce.vercel.app/api/products/products?category=Laptop&category=Phone"
   );
   const data = await response.json();
   return data;

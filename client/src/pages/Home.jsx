@@ -23,23 +23,23 @@ const Home = () => {
   // console.log(data)
 
   // const itemsFunction = async () => {
-  //   let res = await axios.get("http://localhost:5001/api/products/products")
+  //   let res = await axios.get("https://aklamaash-e-commerce.vercel.app/api/products/products")
   //   const jsonData = await res.data;
   //   console.log("Response:", res);
   //   setdata(jsonData.products);
   // };
   useEffect(() => {
     let currIndex = 0;
-    const backgroundImageChange = ()=>{
-      currIndex = (currIndex+1)%slides.length;
+    const backgroundImageChange = () => {
+      currIndex = (currIndex + 1) % slides.length;
       setbackgroundImage(slides[currIndex]);
-    }
+    };
     const interval = setTimeout(() => {
       backgroundImageChange();
     }, 5000);
-    return(()=>{
+    return () => {
       clearInterval(interval);
-    })
+    };
   });
   if (status === statuses.LOADING) {
     return (
@@ -78,8 +78,15 @@ const Home = () => {
 
   return (
     <div>
-      <div className="bg-fixed bg-cover bg-center" style={{backgroundImage:`url(${backgroundImage})`,transition:"1s",objectFit:"cover"}}>
-        <div className="h-[600px] flex items-center justify-end" >
+      <div
+        className="bg-fixed bg-cover bg-center"
+        style={{
+          backgroundImage: `url(${backgroundImage})`,
+          transition: "1s",
+          objectFit: "cover",
+        }}
+      >
+        <div className="h-[600px] flex items-center justify-end">
           <h1 className="text-white text-[75px] font-semibold mb-[200px] mr-10 ">
             Begin Your Shopping Now 😍
           </h1>

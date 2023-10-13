@@ -16,7 +16,7 @@ const DressesHandlelerComponent = () => {
     console.log("Category:",category);
     try {
       const products = await axios.get(
-        `http://localhost:5001/api/products/products?category=${category}`
+        `https://aklamaash-e-commerce.vercel.app/api/products/products?category=${category}`
       );
       const res = products.data;
       setdataarr(res.products);

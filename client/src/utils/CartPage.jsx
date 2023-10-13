@@ -33,10 +33,10 @@ const CartPage = () => {
     try {
       const {
         data: { key },
-      } = await axios.get("http://localhost:5001/api/apikey");
+      } = await axios.get("https://aklamaash-e-commerce.vercel.app/api/apikey");
       const {
         data: { order },
-      } = await axios.post("http://localhost:5001/api/payment/checkout", {
+      } = await axios.post("https://aklamaash-e-commerce.vercel.app/api/payment/checkout", {
         amount,
       });
       console.log("Order:", order);
@@ -48,7 +48,7 @@ const CartPage = () => {
         description: "Test Transaction",
         image: "https://avatars.githubusercontent.com/u/111295679?v=4",
         order_id: order.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
-        callback_url: "http://localhost:5001/api/payment/paymentVerification",
+        callback_url: "https://aklamaash-e-commerce.vercel.app/api/payment/paymentVerification",
         prefill: {
           name: "Aklamaash",
           email: "aklamaashehsan@example.com",

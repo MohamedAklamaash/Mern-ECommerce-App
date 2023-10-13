@@ -8,7 +8,7 @@ const PhonesSection = () => {
   const fetchProducts = async () => {
     try {
       const fetched = await axios.get(
-        "http://localhost:5001/api/products/products?category=Laptop"
+        "https://aklamaash-e-commerce.vercel.app/api/products/products?category=Laptop"
       );
       const json = fetched.data;
       setdataarr(json.products);

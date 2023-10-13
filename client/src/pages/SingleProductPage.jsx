@@ -22,7 +22,7 @@ const SingleProductPage = () => {
   const [productData, setproductData] = useState("");
   const data = async () => {
     try {
-      const url = `http://localhost:5001/api/products/products/${formattedId}`;
+      const url = `https://aklamaash-e-commerce.vercel.app/api/products/products/${formattedId}`;
       const req = await axios.get(url);
       const res = req.data;
       setproductData(res);

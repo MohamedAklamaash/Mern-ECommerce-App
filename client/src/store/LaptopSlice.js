@@ -28,7 +28,7 @@ export const fetchLaptopsfromdb = createAsyncThunk(
   "laptopProducts/fetch",
   async () => {
     const response = await fetch(
-      "http://localhost:5001/api/products/products?category=Laptop"
+      "https://aklamaash-e-commerce.vercel.app/api/products/products?category=Laptop"
     );
     const data = await response.json();
     return data;
