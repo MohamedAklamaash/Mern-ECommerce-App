@@ -11,7 +11,12 @@ const cors = require("cors");
 const payment = require("./routes/paymentRoute");
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
+app.use(
+  cors({
+    origin: "https://aklamaash-e-commerce-app.vercel.app",
+    methods: ["GET", "POST", "PUT", "DELETE"],
+  })
+);
 app.get("/statusCheck",(req,res)=>{
     return res.send("Hello World");
 })
