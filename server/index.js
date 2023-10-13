@@ -40,6 +40,6 @@ process.on("uncaughtException", (err) => {
   });
 });
 
-const server = app.listen(process.env.port,()=>{
+const server = app.listen(process.env.PORT,()=>{
     console.log("app is listening on port")
 })
