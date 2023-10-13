@@ -40,7 +40,9 @@ const SearchProductsComponent = () => {
     <div className="p-3 grid md:grid-cols-3 items-center justify-center grid-cols-1 ">
       {res.map((r) => {
         return (
-          <Link to={`/product/:${r._id}`}>
+          <Link
+            to={`https://aklamaash-e-commerce-app.vercel.app/product/:${r._id}`}
+          >
             <div key={r._id} className="">
               <main className="">
                 <div className="float-left h-[40vmin] w-[30%]  ">

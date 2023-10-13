@@ -13,9 +13,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: "https://aklamaash-e-commerce.vercel.app",
-    methods:["GET","POST","PUT","DELETE"],
-    credentials:true
+    origin: "https://aklamaash-e-commerce-app.vercel.app",
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
   })
 );
 app.use(cookieParser());

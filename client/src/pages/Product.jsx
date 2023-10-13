@@ -21,13 +21,22 @@ const Product = ({ product }) => {
   
   return (
     <div className="flex flex-col items-center justify-center">
-      <Link to={`/product/:${product._id}`}>
+      <Link
+        to={`https://aklamaash-e-commerce-app.vercel.app/product/:${product._id}`}
+      >
         <div className="p-3 flex flex-col items-center">
-          <img src={product?.images[0]?.url} width={300} height={300} alt={product.productName}/>
+          <img
+            src={product?.images[0]?.url}
+            width={300}
+            height={300}
+            alt={product.productName}
+          />
           <h1 className="text-lg font-mono ">{product.productName}</h1>
           <div>
             <ReactStars {...options} />
-            <span className="text-lg font-mono">({product.reviews.length}) reviews</span>
+            <span className="text-lg font-mono">
+              ({product.reviews.length}) reviews
+            </span>
           </div>
           <h3 className="text-xl text-orange-400">${product.price}</h3>
         </div>
