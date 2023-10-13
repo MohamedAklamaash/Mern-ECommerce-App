@@ -20,6 +20,10 @@ app.use(
 app.get("/statusCheck",(req,res)=>{
     return res.send("Hello World");
 })
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "*");
+  next();
+});
 
 app.use(cookieParser());
 app.use("/api/products",product);
