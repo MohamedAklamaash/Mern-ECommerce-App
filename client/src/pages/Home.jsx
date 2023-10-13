@@ -7,7 +7,7 @@ import { add, remove } from "../store/CartSlice";
 import { setProducts, statuses } from "../store/ProductSlice";
 import { fetchProducts } from "../store/ProductSlice";
 import FiltersComponent from "./FiltersComponent";
-import pic1 from "../assets/images/Carousel1.jpeg";
+import pic1 from "../assets/images/pic1.jpg";
 import pic2 from "../assets/images/Carousel2.webp";
 import pic3 from "../assets/images/Carousel3.jpeg";
 
@@ -78,10 +78,10 @@ const Home = () => {
 
   return (
     <div>
-      <div className="bg-fixed bg-cover bg-center" style={{backgroundImage:`url(${backgroundImage})`,transition:"1s"}}>
+      <div className="bg-fixed bg-cover bg-center" style={{backgroundImage:`url(${backgroundImage})`,transition:"1s",objectFit:"cover"}}>
         <div className="h-[600px] flex items-center justify-end" >
           <h1 className="text-white text-[75px] font-semibold mb-[200px] mr-10 ">
-            Begin Your Shopping Now 🤩
+            Begin Your Shopping Now 😍
           </h1>
         </div>
       </div>

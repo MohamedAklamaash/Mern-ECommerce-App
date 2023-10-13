@@ -7,7 +7,7 @@ const DressesSection = () => {
         Women's dresses
       </a>
       <a href="http://localhost:3000/apparels?category=Men'sClothing">
-        Men's Cloathing
+        Men's Clothing
       </a>
       <a href="http://localhost:3000/apparels?category=MenAccessories">
         Men's Accessories
